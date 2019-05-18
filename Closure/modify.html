@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>闭包时钟修改版</title>
+	</head>
+	<body>
+		<span id="time1"></span>
+		<input value="启动时钟" onclick="startClock1()" type="button"/>
+		<input value="停止时钟" onclick="stopClock1()" type="button"/>
+		<br />
+		<span id="time2"></span>
+		<input value="启动时钟" onclick="startClock2()" type='button'/>
+		<input value="停止时钟" onclick="stopClock2()" type="button"/>
+	</body>
+	<script>
+		var node1=document.getElementById('time1');
+		var node2=document.getElementById('time2');
+		var timerObj1=null;
+		var timerObj2=null;
+		function createClock(node,timerObj){
+			var maxTime=10;
+			if(timerObj===null){//用于判定是不是在计时过程中点击了启动
+				timerObj=setInterval(function(){
+					maxTime--;
+					node.innerText=maxTime;
+					console.log(maxTime)
+					if(maxTime<1){
+						clearInterval(timerObj)
+					}
+				},1000)
+				return timerObj;
+			}
+			else {
+				return timerObj;
+			}
+		}
+		
+		function startClock1(){
+			timerObj1=createClock(node1,timerObj1)
+		}
+		
+		function stopClock1(){
+			clearInterval(timerObj1);
+			timerObj1=null;//重置计时器
+		}
+		
+		function startClock2(){
+			timerObj2=createClock(node2,timerObj2)
+		}
+		
+		function stopClock2(){
+			clearInterval(timerObj2);
+			timerObj2=null;//重置计时器
+		}
+	</script>
+</html>

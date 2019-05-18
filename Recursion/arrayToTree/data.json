@@ -1,0 +1,3371 @@
+{
+        "code" : 0,
+        "msg" : "数据执行成功！",
+        "data" : [{
+            "departmentId" : 23,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "成华区",
+            "depPy" : "chq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "chq"
+        }, {
+            "departmentId" : 24,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "武侯区",
+            "depPy" : "whq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "whq"
+        }, {
+            "departmentId" : 25,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "青羊区",
+            "depPy" : "qyq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qyq"
+        }, {
+            "departmentId" : 26,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "锦江区",
+            "depPy" : "jjq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jjq"
+        }, {
+            "departmentId" : 27,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "金牛区",
+            "depPy" : "jnq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jnq"
+        }, {
+            "departmentId" : 28,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "龙泉驿区",
+            "depPy" : "lqyq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lqzq"
+        }, {
+            "departmentId" : 29,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "青白江区",
+            "depPy" : "qbjq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qbjq"
+        }, {
+            "departmentId" : 30,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "新都区",
+            "depPy" : "xdq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xdq"
+        }, {
+            "departmentId" : 31,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "双流区",
+            "depPy" : "slq",
+            "contactName" : "xxx",
+            "contactTel" : "13981101005",
+            "userId" : "7ad037e54f9611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 32,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "郫都区",
+            "depPy" : "pdq",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "afe5f2984f9611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 33,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "温江区",
+            "depPy" : "wjq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wjq"
+        }, {
+            "departmentId" : 34,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "大邑县",
+            "depPy" : "dyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dayixian"
+        }, {
+            "departmentId" : 35,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "金堂县",
+            "depPy" : "jtx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jtx"
+        }, {
+            "departmentId" : 36,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "蒲江县",
+            "depPy" : "pjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pjx"
+        }, {
+            "departmentId" : 37,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "新津县",
+            "depPy" : "xjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xinjinxian"
+        }, {
+            "departmentId" : 38,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "都江堰市",
+            "depPy" : "djys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "djys"
+        }, {
+            "departmentId" : 39,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "彭州市",
+            "depPy" : "pzs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pzs"
+        }, {
+            "departmentId" : 40,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "崇州市",
+            "depPy" : "czs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "czs"
+        }, {
+            "departmentId" : 41,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "邛崃市",
+            "depPy" : "qls",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qls"
+        }, {
+            "departmentId" : 42,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "自流井区",
+            "depPy" : "zljq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zljq"
+        }, {
+            "departmentId" : 43,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "贡井区",
+            "depPy" : "gjq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gjq"
+        }, {
+            "departmentId" : 44,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "大安区",
+            "depPy" : "daq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "daq"
+        }, {
+            "departmentId" : 45,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "沿滩区",
+            "depPy" : "ytq",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "5424b3b84f7011e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 46,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "富顺县",
+            "depPy" : "fsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "fsx"
+        }, {
+            "departmentId" : 47,
+            "parentId" : 4,
+            "type" : 1,
+            "depName" : "东区",
+            "depPy" : "dq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dq"
+        }, {
+            "departmentId" : 48,
+            "parentId" : 4,
+            "type" : 1,
+            "depName" : "西区",
+            "depPy" : "xq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xq"
+        }, {
+            "departmentId" : 49,
+            "parentId" : 4,
+            "type" : 1,
+            "depName" : "仁和区",
+            "depPy" : "rhq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "rhq"
+        }, {
+            "departmentId" : 50,
+            "parentId" : 4,
+            "type" : 1,
+            "depName" : "米易县",
+            "depPy" : "myx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "myx"
+        }, {
+            "departmentId" : 51,
+            "parentId" : 4,
+            "type" : 1,
+            "depName" : "盐边县",
+            "depPy" : "ybx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yanbianxian"
+        }, {
+            "departmentId" : 52,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "江阳区",
+            "depPy" : "jyq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jyq"
+        }, {
+            "departmentId" : 53,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "纳溪区",
+            "depPy" : "nxq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "nxq"
+        }, {
+            "departmentId" : 54,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "龙马潭区",
+            "depPy" : "lmtq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lmtq"
+        }, {
+            "departmentId" : 55,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "泸县",
+            "depPy" : "lx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "luxian"
+        }, {
+            "departmentId" : 56,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "合江县",
+            "depPy" : "hjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hjx"
+        }, {
+            "departmentId" : 57,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "叙永县",
+            "depPy" : "xyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xyx"
+        }, {
+            "departmentId" : 58,
+            "parentId" : 5,
+            "type" : 1,
+            "depName" : "古蔺县",
+            "depPy" : "glx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gulinxian"
+        }, {
+            "departmentId" : 59,
+            "parentId" : 6,
+            "type" : 1,
+            "depName" : "旌阳区",
+            "depPy" : "jyq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zyq"
+        }, {
+            "departmentId" : 60,
+            "parentId" : 6,
+            "type" : 1,
+            "depName" : "中江县",
+            "depPy" : "zjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zhongjiangxian"
+        }, {
+            "departmentId" : 61,
+            "parentId" : 6,
+            "type" : 1,
+            "depName" : "罗江县",
+            "depPy" : "ljx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ljx"
+        }, {
+            "departmentId" : 62,
+            "parentId" : 6,
+            "type" : 1,
+            "depName" : "广汉市",
+            "depPy" : "ghs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ghs"
+        }, {
+            "departmentId" : 63,
+            "parentId" : 6,
+            "type" : 1,
+            "depName" : "绵竹市",
+            "depPy" : "mzs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mzs"
+        }, {
+            "departmentId" : 64,
+            "parentId" : 6,
+            "type" : 1,
+            "depName" : "什邡市",
+            "depPy" : "sfs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sfq"
+        }, {
+            "departmentId" : 65,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "涪城区",
+            "depPy" : "fcq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "fcq"
+        }, {
+            "departmentId" : 66,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "游仙区",
+            "depPy" : "yxq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yxq"
+        }, {
+            "departmentId" : 67,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "江油市",
+            "depPy" : "jys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jiangyoushi"
+        }, {
+            "departmentId" : 68,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "三台县",
+            "depPy" : "stx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "stx"
+        }, {
+            "departmentId" : 69,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "安州区",
+            "depPy" : "azq",
+            "contactName" : "xxx",
+            "contactTel" : "13981101005",
+            "userId" : "454fd7d14f9611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 70,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "平武县",
+            "depPy" : "pwx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pwx"
+        }, {
+            "departmentId" : 71,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "梓潼县",
+            "depPy" : "ztx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ztx"
+        }, {
+            "departmentId" : 72,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "盐亭县",
+            "depPy" : "ytx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ytx"
+        }, {
+            "departmentId" : 73,
+            "parentId" : 7,
+            "type" : 1,
+            "depName" : "北川羌族自治县",
+            "depPy" : "bcqzzzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "bcqzzzx"
+        }, {
+            "departmentId" : 74,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "利州区",
+            "depPy" : "lzq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lzq"
+        }, {
+            "departmentId" : 76,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "朝天区",
+            "depPy" : "ctq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ctq"
+        }, {
+            "departmentId" : 77,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "旺苍县",
+            "depPy" : "wcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wcx"
+        }, {
+            "departmentId" : 78,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "青川县",
+            "depPy" : "qcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qcx"
+        }, {
+            "departmentId" : 79,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "剑阁县",
+            "depPy" : "jgx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jgx"
+        }, {
+            "departmentId" : 80,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "苍溪县",
+            "depPy" : "cxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cxx"
+        }, {
+            "departmentId" : 81,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "船山区",
+            "depPy" : "csq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "csq"
+        }, {
+            "departmentId" : 82,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "安居区",
+            "depPy" : "ajq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ajq"
+        }, {
+            "departmentId" : 83,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "蓬溪县",
+            "depPy" : "pxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pxx"
+        }, {
+            "departmentId" : 84,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "大英县",
+            "depPy" : "dyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dayingxian"
+        }, {
+            "departmentId" : 85,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "射洪县",
+            "depPy" : "shx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "shx"
+        }, {
+            "departmentId" : 86,
+            "parentId" : 10,
+            "type" : 1,
+            "depName" : "市中区",
+            "depPy" : "szq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "njszq"
+        }, {
+            "departmentId" : 87,
+            "parentId" : 10,
+            "type" : 1,
+            "depName" : "东兴区",
+            "depPy" : "dxq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dxq"
+        }, {
+            "departmentId" : 88,
+            "parentId" : 10,
+            "type" : 1,
+            "depName" : "资中县",
+            "depPy" : "zzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zizhongxian"
+        }, {
+            "departmentId" : 89,
+            "parentId" : 10,
+            "type" : 1,
+            "depName" : "隆昌县",
+            "depPy" : "lcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lcx"
+        }, {
+            "departmentId" : 90,
+            "parentId" : 10,
+            "type" : 1,
+            "depName" : "威远县",
+            "depPy" : "wyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wyx"
+        }, {
+            "departmentId" : 91,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "市中区",
+            "depPy" : "szq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lsszq"
+        }, {
+            "departmentId" : 92,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "五通桥",
+            "depPy" : "wtq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wtq"
+        }, {
+            "departmentId" : 93,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "沙湾",
+            "depPy" : "sw",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sw"
+        }, {
+            "departmentId" : 94,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "金口河4个区",
+            "depPy" : "jkh4gq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jkh4gq"
+        }, {
+            "departmentId" : 95,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "犍为县",
+            "depPy" : "jwx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qwx"
+        }, {
+            "departmentId" : 96,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "井研县",
+            "depPy" : "jyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jingyanxian"
+        }, {
+            "departmentId" : 97,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "夹江县",
+            "depPy" : "jjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jjx"
+        }, {
+            "departmentId" : 98,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "沐川县",
+            "depPy" : "mcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "muchuanxian"
+        }, {
+            "departmentId" : 99,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "峨边彝族自治县",
+            "depPy" : "ebyzzzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ebyzzzx"
+        }, {
+            "departmentId" : 100,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "马边彝族自治县",
+            "depPy" : "mbyzzzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mbyzzzx"
+        }, {
+            "departmentId" : 101,
+            "parentId" : 11,
+            "type" : 1,
+            "depName" : "峨眉山市",
+            "depPy" : "emss",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "emss"
+        }, {
+            "departmentId" : 102,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "顺庆区",
+            "depPy" : "sqq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sqq"
+        }, {
+            "departmentId" : 103,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "高坪区",
+            "depPy" : "gpq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gpq"
+        }, {
+            "departmentId" : 104,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "嘉陵区",
+            "depPy" : "jlq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jlq"
+        }, {
+            "departmentId" : 105,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "南部县",
+            "depPy" : "nbx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "nbx"
+        }, {
+            "departmentId" : 106,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "仪陇县",
+            "depPy" : "ylx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ylx"
+        }, {
+            "departmentId" : 107,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "西充县",
+            "depPy" : "xcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xichongxian"
+        }, {
+            "departmentId" : 108,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "蓬安县",
+            "depPy" : "pax",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pax"
+        }, {
+            "departmentId" : 109,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "营山县",
+            "depPy" : "ysx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ysx"
+        }, {
+            "departmentId" : 110,
+            "parentId" : 12,
+            "type" : 1,
+            "depName" : "阆中市",
+            "depPy" : "lzs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "langzhongshi"
+        }, {
+            "departmentId" : 111,
+            "parentId" : 13,
+            "type" : 1,
+            "depName" : "东坡区",
+            "depPy" : "dpq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dpq"
+        }, {
+            "departmentId" : 112,
+            "parentId" : 13,
+            "type" : 1,
+            "depName" : "仁寿县",
+            "depPy" : "rsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "rsx"
+        }, {
+            "departmentId" : 113,
+            "parentId" : 13,
+            "type" : 1,
+            "depName" : "彭山县",
+            "depPy" : "psx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pengshanxian"
+        }, {
+            "departmentId" : 114,
+            "parentId" : 13,
+            "type" : 1,
+            "depName" : "洪雅县",
+            "depPy" : "hyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hongyaxian"
+        }, {
+            "departmentId" : 115,
+            "parentId" : 13,
+            "type" : 1,
+            "depName" : "丹棱县",
+            "depPy" : "dlx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dlx"
+        }, {
+            "departmentId" : 116,
+            "parentId" : 13,
+            "type" : 1,
+            "depName" : "青神县",
+            "depPy" : "qsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qsx"
+        }, {
+            "departmentId" : 117,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "翠屏区",
+            "depPy" : "cpq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cpq"
+        }, {
+            "departmentId" : 118,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "宜宾县",
+            "depPy" : "ybx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yibinxian"
+        }, {
+            "departmentId" : 119,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "南溪县",
+            "depPy" : "nxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "nxx"
+        }, {
+            "departmentId" : 120,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "江安县",
+            "depPy" : "jax",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jax"
+        }, {
+            "departmentId" : 121,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "长宁县",
+            "depPy" : "znx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cnx"
+        }, {
+            "departmentId" : 122,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "高县",
+            "depPy" : "gx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gx"
+        }, {
+            "departmentId" : 123,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "珙县",
+            "depPy" : "gx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gongxian"
+        }, {
+            "departmentId" : 124,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "筠连县",
+            "depPy" : "ylx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "junlianxian"
+        }, {
+            "departmentId" : 125,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "兴文县",
+            "depPy" : "xwx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xwx"
+        }, {
+            "departmentId" : 126,
+            "parentId" : 14,
+            "type" : 1,
+            "depName" : "屏山县",
+            "depPy" : "psx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pingshanxian"
+        }, {
+            "departmentId" : 127,
+            "parentId" : 15,
+            "type" : 1,
+            "depName" : "广安区",
+            "depPy" : "gaq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gaq"
+        }, {
+            "departmentId" : 128,
+            "parentId" : 15,
+            "type" : 1,
+            "depName" : "岳池县",
+            "depPy" : "ycx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ycx"
+        }, {
+            "departmentId" : 129,
+            "parentId" : 15,
+            "type" : 1,
+            "depName" : "武胜县",
+            "depPy" : "wsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wsx"
+        }, {
+            "departmentId" : 130,
+            "parentId" : 15,
+            "type" : 1,
+            "depName" : "邻水县",
+            "depPy" : "lsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "linshuixian"
+        }, {
+            "departmentId" : 131,
+            "parentId" : 15,
+            "type" : 1,
+            "depName" : "华蓥市",
+            "depPy" : "hys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hys"
+        }, {
+            "departmentId" : 132,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "通川区",
+            "depPy" : "tcq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "tcq"
+        }, {
+            "departmentId" : 133,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "达县",
+            "depPy" : "dx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dx"
+        }, {
+            "departmentId" : 134,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "宣汉县",
+            "depPy" : "xhx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xhx"
+        }, {
+            "departmentId" : 135,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "开江县",
+            "depPy" : "kjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "kjx"
+        }, {
+            "departmentId" : 136,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "大竹县",
+            "depPy" : "dzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dazhuxian"
+        }, {
+            "departmentId" : 137,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "渠县",
+            "depPy" : "qx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "qx"
+        }, {
+            "departmentId" : 138,
+            "parentId" : 16,
+            "type" : 1,
+            "depName" : "万源市",
+            "depPy" : "wys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wys"
+        }, {
+            "departmentId" : 139,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "雨城区",
+            "depPy" : "ycq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ycq"
+        }, {
+            "departmentId" : 140,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "芦山县",
+            "depPy" : "lsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lushanxian"
+        }, {
+            "departmentId" : 141,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "名山县",
+            "depPy" : "msx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "msx"
+        }, {
+            "departmentId" : 142,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "天全县",
+            "depPy" : "tqx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "tqx"
+        }, {
+            "departmentId" : 143,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "荥经县",
+            "depPy" : "yjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yingjingxian"
+        }, {
+            "departmentId" : 144,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "宝兴县",
+            "depPy" : "bxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "bxx"
+        }, {
+            "departmentId" : 145,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "汉源县",
+            "depPy" : "hyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hanyuanxian"
+        }, {
+            "departmentId" : 146,
+            "parentId" : 17,
+            "type" : 1,
+            "depName" : "石棉县",
+            "depPy" : "smx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "smx"
+        }, {
+            "departmentId" : 147,
+            "parentId" : 18,
+            "type" : 1,
+            "depName" : "巴州区",
+            "depPy" : "bzq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "bzq"
+        }, {
+            "departmentId" : 148,
+            "parentId" : 18,
+            "type" : 1,
+            "depName" : "通江县",
+            "depPy" : "tjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "tjx"
+        }, {
+            "departmentId" : 149,
+            "parentId" : 18,
+            "type" : 1,
+            "depName" : "南江县",
+            "depPy" : "njx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "njx"
+        }, {
+            "departmentId" : 150,
+            "parentId" : 18,
+            "type" : 1,
+            "depName" : "平昌县",
+            "depPy" : "pcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pcx"
+        }, {
+            "departmentId" : 151,
+            "parentId" : 19,
+            "type" : 1,
+            "depName" : "雁江区",
+            "depPy" : "yjq",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yjq"
+        }, {
+            "departmentId" : 152,
+            "parentId" : 19,
+            "type" : 1,
+            "depName" : "安岳县",
+            "depPy" : "ayx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ayx"
+        }, {
+            "departmentId" : 153,
+            "parentId" : 19,
+            "type" : 1,
+            "depName" : "乐至县",
+            "depPy" : "lzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lzx"
+        }, {
+            "departmentId" : 154,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "简阳市",
+            "depPy" : "jys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jianyangshi"
+        }, {
+            "departmentId" : 155,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "汶川县",
+            "depPy" : "wcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "wenchuanxian"
+        }, {
+            "departmentId" : 156,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "理县",
+            "depPy" : "lx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lx"
+        }, {
+            "departmentId" : 157,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "茂县",
+            "depPy" : "mx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mx"
+        }, {
+            "departmentId" : 158,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "松潘县",
+            "depPy" : "spx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "spx"
+        }, {
+            "departmentId" : 159,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "金川县",
+            "depPy" : "jcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jcx"
+        }, {
+            "departmentId" : 160,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "黑水县",
+            "depPy" : "hsx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hsx"
+        }, {
+            "departmentId" : 161,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "马尔康县",
+            "depPy" : "mekx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mekx"
+        }, {
+            "departmentId" : 162,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "壤塘县",
+            "depPy" : "rtx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "rtx"
+        }, {
+            "departmentId" : 163,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "阿坝县",
+            "depPy" : "abx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "abx"
+        }, {
+            "departmentId" : 164,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "若尔盖县",
+            "depPy" : "regx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "regx"
+        }, {
+            "departmentId" : 165,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "红原县",
+            "depPy" : "hyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hongyuanxian"
+        }, {
+            "departmentId" : 166,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "九寨沟县",
+            "depPy" : "jzgx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jzgx"
+        }, {
+            "departmentId" : 167,
+            "parentId" : 20,
+            "type" : 1,
+            "depName" : "小金县",
+            "depPy" : "xjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xiaojinxian"
+        }, {
+            "departmentId" : 168,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "康定县",
+            "depPy" : "kdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "kdx"
+        }, {
+            "departmentId" : 169,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "丹巴县",
+            "depPy" : "dbx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dbx"
+        }, {
+            "departmentId" : 170,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "炉霍县",
+            "depPy" : "lhx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lhx"
+        }, {
+            "departmentId" : 171,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "九龙县",
+            "depPy" : "jlx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jiulongxian"
+        }, {
+            "departmentId" : 172,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "甘孜县",
+            "depPy" : "gzx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ganzixian"
+        }, {
+            "departmentId" : 173,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "雅江县",
+            "depPy" : "yjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yjx"
+        }, {
+            "departmentId" : 174,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "新龙县",
+            "depPy" : "xlx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xlx"
+        }, {
+            "departmentId" : 175,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "道孚县",
+            "depPy" : "dfx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "daofuxian"
+        }, {
+            "departmentId" : 176,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "白玉县",
+            "depPy" : "byx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "byx"
+        }, {
+            "departmentId" : 177,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "理塘县",
+            "depPy" : "ltx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ltx"
+        }, {
+            "departmentId" : 178,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "德格县",
+            "depPy" : "dgx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dgx"
+        }, {
+            "departmentId" : 179,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "乡城县",
+            "depPy" : "xcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xiangchengxian"
+        }, {
+            "departmentId" : 180,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "石渠县",
+            "depPy" : "sqx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sqx"
+        }, {
+            "departmentId" : 181,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "稻城县",
+            "depPy" : "dcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "daochengxian"
+        }, {
+            "departmentId" : 182,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "色达县",
+            "depPy" : "sdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sdx"
+        }, {
+            "departmentId" : 183,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "巴塘县",
+            "depPy" : "btx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "batangxian"
+        }, {
+            "departmentId" : 184,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "泸定县",
+            "depPy" : "ldx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zdx"
+        }, {
+            "departmentId" : 185,
+            "parentId" : 21,
+            "type" : 1,
+            "depName" : "得荣县",
+            "depPy" : "drx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "drx"
+        }, {
+            "departmentId" : 186,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "西昌市",
+            "depPy" : "xcs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xcs"
+        }, {
+            "departmentId" : 187,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "木里县",
+            "depPy" : "mlx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mlx"
+        }, {
+            "departmentId" : 188,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "盐源县",
+            "depPy" : "yyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yyx"
+        }, {
+            "departmentId" : 189,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "德昌县",
+            "depPy" : "dcx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dechangxian"
+        }, {
+            "departmentId" : 190,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "会理县",
+            "depPy" : "hlx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hlx"
+        }, {
+            "departmentId" : 191,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "会东县",
+            "depPy" : "hdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "hdx"
+        }, {
+            "departmentId" : 192,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "宁南县",
+            "depPy" : "nnx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "nnx"
+        }, {
+            "departmentId" : 193,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "普格县",
+            "depPy" : "pgx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pgx"
+        }, {
+            "departmentId" : 194,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "布拖县",
+            "depPy" : "btx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "butuoxian"
+        }, {
+            "departmentId" : 195,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "金阳县",
+            "depPy" : "jyx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jinyangxian"
+        }, {
+            "departmentId" : 196,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "昭觉县",
+            "depPy" : "zjx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zhaojuexian"
+        }, {
+            "departmentId" : 197,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "喜德县",
+            "depPy" : "xdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xdx"
+        }, {
+            "departmentId" : 198,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "冕宁县",
+            "depPy" : "mnx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mnx"
+        }, {
+            "departmentId" : 199,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "越西县",
+            "depPy" : "yxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yxx"
+        }, {
+            "departmentId" : 200,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "甘洛县",
+            "depPy" : "glx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "glx"
+        }, {
+            "departmentId" : 201,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "美姑县",
+            "depPy" : "mgx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mgx"
+        }, {
+            "departmentId" : 202,
+            "parentId" : 22,
+            "type" : 1,
+            "depName" : "雷波县",
+            "depPy" : "lbx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lbx"
+        }, {
+            "departmentId" : 347,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "高新区",
+            "depPy" : "gxq",
+            "contactName" : "xxxx",
+            "contactTel" : "13981101105",
+            "userId" : "3d23ca524f6411e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 348,
+            "parentId" : 2,
+            "type" : 1,
+            "depName" : "天府新区",
+            "depPy" : "tfxq",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "dc5f27804f6411e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 349,
+            "parentId" : 18,
+            "type" : 1,
+            "depName" : "恩阳区",
+            "depPy" : "eyq",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "96d6cf864f6f11e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 350,
+            "parentId" : 15,
+            "type" : 1,
+            "depName" : "前锋县",
+            "depPy" : "qfx",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "c084d1b24f7011e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 351,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "荣县",
+            "depPy" : "rx",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "7a7f0ac64f7011e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 368,
+            "parentId" : 3,
+            "type" : 1,
+            "depName" : "高新区",
+            "depPy" : "gxq",
+            "contactName" : "xx",
+            "contactTel" : "13981101105",
+            "userId" : "6b1a0ac34f9c11e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 372,
+            "parentId" : 8,
+            "type" : 1,
+            "depName" : "昭化区",
+            "depPy" : "zhq",
+            "contactName" : "cxc",
+            "contactTel" : "13333333333",
+            "userId" : "64fafd11512311e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 373,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "经开区",
+            "depPy" : "jkq",
+            "contactName" : "aaa",
+            "contactTel" : "13100000000",
+            "userId" : "e5ba03ab512311e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 374,
+            "parentId" : 9,
+            "type" : 1,
+            "depName" : "河东新区",
+            "depPy" : "hdxq",
+            "contactName" : "aaa",
+            "contactTel" : "13000000000",
+            "userId" : "75a38bde503911e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 2,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "成都市",
+            "depPy" : "cds",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cds"
+        }, {
+            "departmentId" : 3,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "自贡市",
+            "depPy" : "zgs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zgs"
+        }, {
+            "departmentId" : 4,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "攀枝花市",
+            "depPy" : "pzhs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pzhs"
+        }, {
+            "departmentId" : 5,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "泸州市",
+            "depPy" : "lzs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "luzhoushi"
+        }, {
+            "departmentId" : 6,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "德阳市",
+            "depPy" : "dys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dys"
+        }, {
+            "departmentId" : 7,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "绵阳市",
+            "depPy" : "mys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mys"
+        }, {
+            "departmentId" : 8,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "广元市",
+            "depPy" : "gys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gys"
+        }, {
+            "departmentId" : 9,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "遂宁市",
+            "depPy" : "sns",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sns"
+        }, {
+            "departmentId" : 10,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "内江市",
+            "depPy" : "njs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "njs"
+        }, {
+            "departmentId" : 11,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "乐山市",
+            "depPy" : "lss",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lss"
+        }, {
+            "departmentId" : 12,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "南充市",
+            "depPy" : "ncs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ncs"
+        }, {
+            "departmentId" : 13,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "眉山市",
+            "depPy" : "mss",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mss"
+        }, {
+            "departmentId" : 14,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "宜宾市",
+            "depPy" : "ybs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ybs"
+        }, {
+            "departmentId" : 15,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "广安市",
+            "depPy" : "gas",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gas"
+        }, {
+            "departmentId" : 16,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "达州市",
+            "depPy" : "dzs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dzs"
+        }, {
+            "departmentId" : 17,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "雅安市",
+            "depPy" : "yas",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yas"
+        }, {
+            "departmentId" : 18,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "巴中市",
+            "depPy" : "bzs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "bzs"
+        }, {
+            "departmentId" : 19,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "资阳市",
+            "depPy" : "zys",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zys"
+        }, {
+            "departmentId" : 20,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "阿坝藏族羌族自治州",
+            "depPy" : "abzzqzzzz",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "abczqzzzz"
+        }, {
+            "departmentId" : 21,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "甘孜藏族自治州",
+            "depPy" : "gzzzzzz",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gzczzzz"
+        }, {
+            "departmentId" : 22,
+            "parentId" : 1,
+            "type" : 2,
+            "depName" : "凉山彝族自治州",
+            "depPy" : "lsyzzzz",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lsyzzzz"
+        }, {
+            "departmentId" : 228,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川大学",
+            "depPy" : "scdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scdx"
+        }, {
+            "departmentId" : 229,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南交通大学",
+            "depPy" : "xnjtdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnjtdx"
+        }, {
+            "departmentId" : 230,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "电子科技大学",
+            "depPy" : "dzkjdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dzkjdx"
+        }, {
+            "departmentId" : 231,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "中国民用航空飞行学院",
+            "depPy" : "zgmyhkfxxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zgmyhkfxxy"
+        }, {
+            "departmentId" : 232,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南财经大学",
+            "depPy" : "xncjdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xncjdx"
+        }, {
+            "departmentId" : 233,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南民族大学",
+            "depPy" : "xnmzdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnmzdx"
+        }, {
+            "departmentId" : 234,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南石油大学",
+            "depPy" : "xnsydx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnsydx"
+        }, {
+            "departmentId" : 235,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都理工大学",
+            "depPy" : "cdlgdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdlgdx"
+        }, {
+            "departmentId" : 236,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南科技大学",
+            "depPy" : "xnkjdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnkjdx"
+        }, {
+            "departmentId" : 237,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都信息工程大学",
+            "depPy" : "cdxxgcdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdxxgcdx"
+        }, {
+            "departmentId" : 238,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川理工学院",
+            "depPy" : "sclgxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sclgxy"
+        }, {
+            "departmentId" : 239,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西华大学",
+            "depPy" : "xhdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xhdx"
+        }, {
+            "departmentId" : 240,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川农业大学",
+            "depPy" : "scnydx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scnydx"
+        }, {
+            "departmentId" : 241,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西昌学院",
+            "depPy" : "xcxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xcxy"
+        }, {
+            "departmentId" : 242,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南医科大学",
+            "depPy" : "xnykdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnykdx"
+        }, {
+            "departmentId" : 243,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都中医药大学",
+            "depPy" : "cdzyydx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdzyydx"
+        }, {
+            "departmentId" : 244,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "川北医学院",
+            "depPy" : "cbyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cbyxy"
+        }, {
+            "departmentId" : 245,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川师范大学",
+            "depPy" : "scsfdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scsfdx"
+        }, {
+            "departmentId" : 246,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西华师范大学",
+            "depPy" : "xhsfdx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xhsfdx"
+        }, {
+            "departmentId" : 247,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "绵阳师范学院",
+            "depPy" : "mysfxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mysfxy"
+        }, {
+            "departmentId" : 248,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "内江师范学院",
+            "depPy" : "njsfxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "njsfxy"
+        }, {
+            "departmentId" : 249,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "宜宾学院",
+            "depPy" : "ybxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ybxy"
+        }, {
+            "departmentId" : 250,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川文理学院",
+            "depPy" : "scwlxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwlxy"
+        }, {
+            "departmentId" : 251,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "阿坝师范学院",
+            "depPy" : "absfxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "absfxy"
+        }, {
+            "departmentId" : 252,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "乐山师范学院",
+            "depPy" : "lssfxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lssfxy"
+        }, {
+            "departmentId" : 253,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都体育学院",
+            "depPy" : "cdtyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdtyxy"
+        }, {
+            "departmentId" : 254,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川音乐学院",
+            "depPy" : "scylxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scylxy"
+        }, {
+            "departmentId" : 255,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都学院",
+            "depPy" : "cdxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdxy"
+        }, {
+            "departmentId" : 256,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都工业学院",
+            "depPy" : "cdgyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdgyxy"
+        }, {
+            "departmentId" : 257,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "攀枝花学院",
+            "depPy" : "pzhxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "pzhxy"
+        }, {
+            "departmentId" : 258,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川旅游学院",
+            "depPy" : "sclyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sclyxy"
+        }, {
+            "departmentId" : 259,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川民族学院",
+            "depPy" : "scmzxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scmzxy"
+        }, {
+            "departmentId" : 260,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川警察学院",
+            "depPy" : "scjcxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scjcxy"
+        }, {
+            "departmentId" : 261,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都东软学院",
+            "depPy" : "cddrxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cddrxy"
+        }, {
+            "departmentId" : 262,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "电子科技大学成都学院",
+            "depPy" : "dzkjdxcdxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dzkjdxcdxy"
+        }, {
+            "departmentId" : 263,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都理工大学工程技术学院",
+            "depPy" : "cdlgdxgcjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdlgdxgcjsxy"
+        }, {
+            "departmentId" : 264,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川传媒学院",
+            "depPy" : "sccmxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sccmxy"
+        }, {
+            "departmentId" : 265,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都信息工程大学银杏酒店管理学院",
+            "depPy" : "cdxxgcdxyxjdglxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdxxgcdxyxjdglxy"
+        }, {
+            "departmentId" : 266,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都文理学院",
+            "depPy" : "cdwlxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdwlxy"
+        }, {
+            "departmentId" : 267,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川工商学院",
+            "depPy" : "scgsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scgsxy"
+        }, {
+            "departmentId" : 268,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川外国语大学成都学院",
+            "depPy" : "scwgydxcdxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwgydxcdxy"
+        }, {
+            "departmentId" : 269,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都医学院",
+            "depPy" : "cdyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdyxy"
+        }, {
+            "departmentId" : 270,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川工业科技学院",
+            "depPy" : "scgykjxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scgykjxy"
+        }, {
+            "departmentId" : 271,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川大学锦城学院",
+            "depPy" : "scdxjcxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scdxjcxy"
+        }, {
+            "departmentId" : 272,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南财经大学天府学院",
+            "depPy" : "xncjdxtfxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xncjdxtfxy"
+        }, {
+            "departmentId" : 273,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川大学锦江学院",
+            "depPy" : "scdxjjxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scdxjjxy"
+        }, {
+            "departmentId" : 274,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川文化艺术学院",
+            "depPy" : "scwhysxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwhysxy"
+        }, {
+            "departmentId" : 275,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南科技大学城市学院",
+            "depPy" : "xnkjdxcsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnkjdxcsxy"
+        }, {
+            "departmentId" : 276,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西南交通大学希望学院",
+            "depPy" : "xnjtdxxwxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xnjtdxxwxy"
+        }, {
+            "departmentId" : 277,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都师范学院",
+            "depPy" : "cdsfxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdsfxy"
+        }, {
+            "departmentId" : 278,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川电影电视学院",
+            "depPy" : "scdydsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scdydsxy"
+        }, {
+            "departmentId" : 279,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都纺织高等专科学校",
+            "depPy" : "cdfzgdzkxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdfzgdzkxx"
+        }, {
+            "departmentId" : 280,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "民办四川天一学院",
+            "depPy" : "mbsctyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mbsctyxy"
+        }, {
+            "departmentId" : 281,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都航空职业技术学院",
+            "depPy" : "cdhkzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdhkzyjsxy"
+        }, {
+            "departmentId" : 282,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川电力职业技术学院",
+            "depPy" : "scdlzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scdlzyjsxy"
+        }, {
+            "departmentId" : 283,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都职业技术学院",
+            "depPy" : "cdzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdzyjsxy"
+        }, {
+            "departmentId" : 284,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川化工职业技术学院",
+            "depPy" : "schgzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "schgzyjsxy"
+        }, {
+            "departmentId" : 285,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川水利职业技术学院",
+            "depPy" : "scslzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scslzyjsxy"
+        }, {
+            "departmentId" : 286,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "南充职业技术学院",
+            "depPy" : "nczyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "nczyjsxy"
+        }, {
+            "departmentId" : 287,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "内江职业技术学院",
+            "depPy" : "njzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "njzyjsxy"
+        }, {
+            "departmentId" : 288,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川航天职业技术学院",
+            "depPy" : "schtzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "schtzyjsxy"
+        }, {
+            "departmentId" : 289,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川邮电职业技术学院",
+            "depPy" : "scydzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scydzyjsxy"
+        }, {
+            "departmentId" : 290,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川机电职业技术学院",
+            "depPy" : "scjdzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scjdzyjsxy"
+        }, {
+            "departmentId" : 291,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "绵阳职业技术学院",
+            "depPy" : "myzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "myzyjsxy"
+        }, {
+            "departmentId" : 292,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川交通职业技术学院",
+            "depPy" : "scjtzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scjtzyjsxy"
+        }, {
+            "departmentId" : 293,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川工商职业技术学院",
+            "depPy" : "scgszyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scgszyjsxy"
+        }, {
+            "departmentId" : 294,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川工程职业技术学院",
+            "depPy" : "scgczyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scgczyjsxy"
+        }, {
+            "departmentId" : 295,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川建筑职业技术学院",
+            "depPy" : "scjzzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scjzzyjsxy"
+        }, {
+            "departmentId" : 296,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "达州职业技术学院",
+            "depPy" : "dzzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dzzyjsxy"
+        }, {
+            "departmentId" : 297,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川托普信息技术职业学院",
+            "depPy" : "sctpxxjszyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sctpxxjszyxy"
+        }, {
+            "departmentId" : 298,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川国际标榜职业学院",
+            "depPy" : "scgjbbzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scgjbbzyxy"
+        }, {
+            "departmentId" : 299,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都农业科技职业学院",
+            "depPy" : "cdnykjzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdnykjzyxy"
+        }, {
+            "departmentId" : 300,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "宜宾职业技术学院",
+            "depPy" : "ybzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ybzyjsxy"
+        }, {
+            "departmentId" : 301,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "泸州职业技术学院",
+            "depPy" : "lzzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zzzyjsxy"
+        }, {
+            "departmentId" : 302,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "眉山职业技术学院",
+            "depPy" : "mszyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mszyjsxy"
+        }, {
+            "departmentId" : 303,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都艺术职业学院",
+            "depPy" : "cdyszyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdyszyxy"
+        }, {
+            "departmentId" : 304,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川职业技术学院",
+            "depPy" : "sczyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sczyjsxy"
+        }, {
+            "departmentId" : 305,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "乐山职业技术学院",
+            "depPy" : "lszyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "lszyjsxy"
+        }, {
+            "departmentId" : 306,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "雅安职业技术学院",
+            "depPy" : "yazyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "yazyjsxy"
+        }, {
+            "departmentId" : 307,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川商务职业学院",
+            "depPy" : "scswzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scswzyxy"
+        }, {
+            "departmentId" : 308,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川司法警官职业学院",
+            "depPy" : "scsfjgzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scsfjgzyxy"
+        }, {
+            "departmentId" : 309,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "广安职业技术学院",
+            "depPy" : "gazyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gazyjsxy"
+        }, {
+            "departmentId" : 310,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川信息职业技术学院",
+            "depPy" : "scxxzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scxxzyjsxy"
+        }, {
+            "departmentId" : 311,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川文化传媒职业学院",
+            "depPy" : "scwhcmzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwhcmzyxy"
+        }, {
+            "departmentId" : 312,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川华新现代职业学院",
+            "depPy" : "schxxdzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "schxxdzyxy"
+        }, {
+            "departmentId" : 313,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川管理职业学院",
+            "depPy" : "scglzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scglzyxy"
+        }, {
+            "departmentId" : 314,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川艺术职业学院",
+            "depPy" : "scyszyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scyszyxy"
+        }, {
+            "departmentId" : 315,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川中医药高等专科学校",
+            "depPy" : "sczyygdzkxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sczyygdzkxx"
+        }, {
+            "departmentId" : 316,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川科技职业学院",
+            "depPy" : "sckjzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sckjzyxy"
+        }, {
+            "departmentId" : 317,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川文化产业职业学院",
+            "depPy" : "scwhcyzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwhcyzyxy"
+        }, {
+            "departmentId" : 318,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川财经职业学院",
+            "depPy" : "sccjzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "caijingzhiyexueyuan"
+        }, {
+            "departmentId" : 319,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川城市职业学院",
+            "depPy" : "sccszyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sccszyxy"
+        }, {
+            "departmentId" : 320,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川现代职业学院",
+            "depPy" : "scxdzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scxdzyxy"
+        }, {
+            "departmentId" : 321,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川幼儿师范高等专科学校",
+            "depPy" : "scyesfgdzkxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scyesfgdzkxx"
+        }, {
+            "departmentId" : 322,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川长江职业学院",
+            "depPy" : "sczjzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "changjiangzhiyexueyuan"
+        }, {
+            "departmentId" : 323,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川三河职业学院",
+            "depPy" : "scshzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scshzyxy"
+        }, {
+            "departmentId" : 324,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "川北幼儿师范高等专科学校",
+            "depPy" : "cbyesfgdzkxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cbyesfgdzkxx"
+        }, {
+            "departmentId" : 325,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川卫生康复职业学院",
+            "depPy" : "scwskfzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwskfzyxy"
+        }, {
+            "departmentId" : 326,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川汽车职业技术学院",
+            "depPy" : "scqczyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scqczyjsxy"
+        }, {
+            "departmentId" : 327,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "巴中职业技术学院",
+            "depPy" : "bzzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "bzzyjsxy"
+        }, {
+            "departmentId" : 328,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川希望汽车职业学院",
+            "depPy" : "scxwqczyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scxwqczyxy"
+        }, {
+            "departmentId" : 329,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川电子机械职业技术学院",
+            "depPy" : "scdzjxzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scdzjxzyjsxy"
+        }, {
+            "departmentId" : 330,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川文轩职业学院",
+            "depPy" : "scwxzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scwxzyxy"
+        }, {
+            "departmentId" : 331,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "川南幼儿师范高等专科学校",
+            "depPy" : "cnyesfgdzkxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cnyesfgdzkxx"
+        }, {
+            "departmentId" : 332,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川护理职业学院",
+            "depPy" : "schlzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "schlzyxy"
+        }, {
+            "departmentId" : 333,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都工业职业技术学院",
+            "depPy" : "cdgyzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdgyzyjsxy"
+        }, {
+            "departmentId" : 334,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川西南航空职业学院",
+            "depPy" : "scxnhkzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scxnhkzyxy"
+        }, {
+            "departmentId" : 335,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "成都工贸职业技术学院",
+            "depPy" : "cdgmzyjsxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cdgmzyjsxy"
+        }, {
+            "departmentId" : 336,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川应用技术职业学院",
+            "depPy" : "scyyjszyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "scyyjszyxy"
+        }, {
+            "departmentId" : 337,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "西昌民族幼儿师范高等专科学校",
+            "depPy" : "xcmzyesfgdzkxx",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xcmzyesfgdzkxx"
+        }, {
+            "departmentId" : 338,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "眉山药科职业学院",
+            "depPy" : "msykzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "msykzyxy"
+        }, {
+            "departmentId" : 339,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "天府新区信息职业学院",
+            "depPy" : "tfxqxxzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "tfxqxxzyxy"
+        }, {
+            "departmentId" : 340,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "德阳城市轨道交通职业学院",
+            "depPy" : "dycsgdjtzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dycsgdjtzyxy"
+        }, {
+            "departmentId" : 341,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "德阳科贸职业学院",
+            "depPy" : "dykmzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "dykmzyxy"
+        }, {
+            "departmentId" : 342,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "江阳城建职业学院",
+            "depPy" : "jycjzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jycjzyxy"
+        }, {
+            "departmentId" : 343,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "天府新区航空旅游职业学院",
+            "depPy" : "tfxqhklyzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "tfxqhklyzyxy"
+        }, {
+            "departmentId" : 344,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "天府新区通用航空职业学院",
+            "depPy" : "tfxqtyhkzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "tfxqtyhkzyxy"
+        }, {
+            "departmentId" : 345,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "阿坝职业学院",
+            "depPy" : "abzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "abzyxy"
+        }, {
+            "departmentId" : 346,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川体育职业学院",
+            "depPy" : "sctyzyxy",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sctyzyxy"
+        }, {
+            "departmentId" : 352,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川广播电视大学",
+            "depPy" : "scgbdsdx",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "e7286ea34f7111e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 369,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "四川省教育科学研究院",
+            "depPy" : "scsjykxyjy",
+            "contactName" : "xx",
+            "contactTel" : "13981101105",
+            "userId" : "74f6da13502b11e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 375,
+            "parentId" : 1,
+            "type" : 3,
+            "depName" : "后端测试",
+            "depPy" : "hdcs",
+            "contactName" : "",
+            "contactTel" : "15681167123",
+            "userId" : "c44114d35cf211e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 203,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅法规综改处",
+            "depPy" : "jytfgzgc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jytfgzgc"
+        }, {
+            "departmentId" : 204,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "办公室",
+            "depPy" : "bgs",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "bgs"
+        }, {
+            "departmentId" : 205,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "信访处",
+            "depPy" : "xfc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xfc"
+        }, {
+            "departmentId" : 206,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "政策法规与综合改革处",
+            "depPy" : "zcfgyzhggc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zcfgyzhggc.."
+        }, {
+            "departmentId" : 207,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "发展规划处",
+            "depPy" : "fzghc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "fzghc"
+        }, {
+            "departmentId" : 208,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "财务管理处",
+            "depPy" : "cwglc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "cwglc"
+        }, {
+            "departmentId" : 209,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "组织干部处",
+            "depPy" : "zzgbc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zzgbc"
+        }, {
+            "departmentId" : 210,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "人事教师处",
+            "depPy" : "rsjsc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "rsjsc"
+        }, {
+            "departmentId" : 211,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "督导办",
+            "depPy" : "ddb",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ddb"
+        }, {
+            "departmentId" : 212,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "基础教育处",
+            "depPy" : "jcjyc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jcjyc"
+        }, {
+            "departmentId" : 213,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "高等教育处",
+            "depPy" : "gdjyc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gdjyc"
+        }, {
+            "departmentId" : 214,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "职成处",
+            "depPy" : "zcc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zcc"
+        }, {
+            "departmentId" : 215,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "民办教育处",
+            "depPy" : "mbjyc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mbjyc"
+        }, {
+            "departmentId" : 216,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "民族教育处",
+            "depPy" : "mzjyc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "mzjyc"
+        }, {
+            "departmentId" : 217,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "科技研究生处",
+            "depPy" : "kjyjsc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "kjyjsc"
+        }, {
+            "departmentId" : 218,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "宣传思想工作处",
+            "depPy" : "xcsxgzc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xcsxgzc"
+        }, {
+            "departmentId" : 219,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "高校学生工作处",
+            "depPy" : "gxxsgzc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gxxsgzc"
+        }, {
+            "departmentId" : 220,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "体卫艺处",
+            "depPy" : "twyc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "twyc"
+        }, {
+            "departmentId" : 221,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "国际合作处",
+            "depPy" : "gjhzc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "gjhzc"
+        }, {
+            "departmentId" : 222,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "语委办",
+            "depPy" : "ywb",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ywb"
+        }, {
+            "departmentId" : 223,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "机关党办",
+            "depPy" : "jgdb",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "jgdb"
+        }, {
+            "departmentId" : 224,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "离退休工作处",
+            "depPy" : "ltxgzc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "ltxgzc"
+        }, {
+            "departmentId" : 225,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "驻教育厅纪检组",
+            "depPy" : "zjytjjz",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "zjytjjz"
+        }, {
+            "departmentId" : 226,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "审计工作处",
+            "depPy" : "sjgzc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "sjgzc"
+        }, {
+            "departmentId" : 227,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "学校安全管理处",
+            "depPy" : "xxaqglc",
+            "contactName" : "",
+            "contactTel" : "",
+            "userId" : "xxaqglc"
+        }, {
+            "departmentId" : 353,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅考试院",
+            "depPy" : "jytksy",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "07e79b5c4f7611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 354,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅服务中心",
+            "depPy" : "jytfwzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "2252f0294f7511e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 355,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅信息中心",
+            "depPy" : "jytxxzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "56f4c3b14f7511e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 356,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅教科院",
+            "depPy" : "jytjky",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "3803cbdc4f7611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 357,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅技装中心",
+            "depPy" : "jytjzzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "afa21e0b4f7611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 358,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅后产中心",
+            "depPy" : "jythczx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "d7fe00dd4f7611e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 359,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅电教馆",
+            "depPy" : "jytdjg",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "1b61627c4f7711e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 360,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅报刊社",
+            "depPy" : "jytbks",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "32e8ee1f4f7711e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 361,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅成都西藏中学",
+            "depPy" : "jytcdxzzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "67a15a154f7a11e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 362,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅内江铁路机械学校",
+            "depPy" : "jytnjtljxxx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "af45ce6f4f7711e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 363,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅资助管理中心",
+            "depPy" : "jytzzglzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "07af93ef4f7811e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 364,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅就业指导中心",
+            "depPy" : "jytjyzdzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "77ef33e44f7811e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 365,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅国际交流中心",
+            "depPy" : "jytgjjlzx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "a0dcb3f14f7811e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 366,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅普通话测试中心",
+            "depPy" : "jytpthcszx",
+            "contactName" : "xxb",
+            "contactTel" : "13981101105",
+            "userId" : "c56ea43b4f7811e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 376,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "安全管理处",
+            "depPy" : "aqglc",
+            "contactName" : "T",
+            "contactTel" : "13333333333",
+            "userId" : "6fa94a49670111e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 379,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅信推办",
+            "depPy" : "jytxtb",
+            "contactName" : "xxx",
+            "contactTel" : "13981101105",
+            "userId" : "00c89f7f670211e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 380,
+            "parentId" : 1,
+            "type" : 4,
+            "depName" : "教育厅资助管理中心",
+            "depPy" : "jytzzglzx",
+            "contactName" : "d",
+            "contactTel" : "13333333333",
+            "userId" : "aa999cd1670111e9a61000163e0a02a5"
+        }, {
+            "departmentId" : 1,
+            "parentId" : 0,
+            "type" : 5,
+            "depName" : "教育厅",
+            "depPy" : "jyt",
+            "contactName" : "谢先博",
+            "contactTel" : "13981101105",
+            "userId" : "0"
+        }]
+    }

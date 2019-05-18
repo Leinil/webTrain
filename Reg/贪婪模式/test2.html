@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var str="<img src='../aaa.jpg'></img> <img src='../bbb.jpg'></img> <img src='../ccc.jpg'></img>"
+		var reg=/<img[^>]*>/g;
+		console.log(str.match(reg));
+	</script>
+</html>

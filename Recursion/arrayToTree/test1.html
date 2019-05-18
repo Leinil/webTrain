@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>数组转树形数据</title>
+	</head>
+	<body>
+	</body>
+	<script>
+		// 总结:递归三要素,
+		// 1.判定条件 (随每次函数递归调用传入)
+		// 2.递归出口
+		// 3.函数返回值 (返回最终需要的结果)
+		window.onload=function(){
+			var url='./data.json';
+			var request =new XMLHttpRequest();
+			request.open('GET',url);
+			request.onload=function(){
+				if(request.status==200){
+					var json = JSON.parse(request.responseText);
+					console.log(dataToTree(json.data,0))
+				}
+			}
+			request.send()
+		}
+		
+		function dataToTree(totalData,parentId){
+			var arr=[];
+			for (let i=0;i<totalData.length;i++){
+				if(totalData[i].parentId===parentId){//判定条件
+					arr.push(totalData[i]);
+					let child=arguments.callee(totalData,totalData[i].departmentId);//随函数递归传入
+					if(child.length>0){//递归出口
+						totalData[i]['child']=child
+					}
+					// else{
+					// 	return arr
+					// }
+				}
+			}
+			return arr;//1.函数返回值 2.也相当与是递归出口
+		}
+	</script>
+</html>
