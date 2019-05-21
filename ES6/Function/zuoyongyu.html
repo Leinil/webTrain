@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>函数带有默认参数时的作用域问题</title>
+	</head>
+	<body>
+		<p>foo中打印的结果是3是因为在函数foo的作用域中定义了一个名为x的变量，在查找x的时候向上查找获取的第一个x即为该作用域下的x</p>
+		<br />
+		<p>foo1中打印的结果是2是因为在foo1中隐式创建了一个全局作用域下的x，而在打印查找的过程中最先获取到函数参数中的默认设置值x</p>
+	</body>
+	<script>
+		//es6函数扩展作用域部分
+		var x=1;
+		function foo(x,y=function(){x=2;}){
+			var x=3;
+			y();
+			console.log(x);//3 
+		}
+		
+		function foo1(x,y=function(){x=2;}){
+			x=3;
+			y();
+			console.log(x);//2
+		}
+		foo();
+		foo1()
+	</script>
+</html>
