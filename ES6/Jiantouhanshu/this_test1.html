@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于箭头函数中的this指向问题</title>
+	</head>
+	<body>
+		<p>1.箭头函数中this的指向指向的是定义时的对象而不是运行时的</p>
+		<p>2.箭头函数本身是不具有this的所以他内部的this是他的外层代码块中的this</p>
+		<p>3.正是因为第二点所有箭头函数不能当作是构造函数（是不能当作构造函数不是不能在构造函数中出现）</p>
+		<p>4.同时箭头函数中的arguments，super属性都是不存在的都指向外层对应的变量</p>
+	</body>
+	<script>
+		//普通函数
+		var name='window';
+		function creater(){
+			this.name='obj';
+			var obj={
+				foo:function (){
+					console.log(this);
+					console.log(this.name);
+				}
+			}
+			return obj;
+		 }
+		 
+		creater().foo()
+		
+		//箭头函数????
+		 // var name='window';
+		 // var obj1={
+			//  name:'obj',
+			//  foo:()=>{
+			// 	 console.log(this.name)
+			//  }
+		 // }
+		 // obj1.foo()
+		 // var fun1=obj1.foo;
+		 // fun1();
+		 
+		 //箭头函数
+		 // var name='window';
+		 // function creater(){
+			//  this.name='obj';
+			// var obj={
+			// 	foo:()=>{
+			// 		console.log(this);
+			// 		console.log(this.name);
+			// 	}
+			// }
+			// return obj;
+		 // }
+		 // 
+		 // Jiantou=new creater();
+		 // Jiantou.foo()
+// 		 
+// 		function Timer() {
+// 			console.log(this)
+// 		  this.s1 = 0;
+// 		  this.s2 = 0;
+// 		  // 箭头函数
+// 		  setInterval(() => this.s1++, 1000);
+// 		  // 普通函数
+// 		  setInterval(function () {
+// 			this.s2++;
+// 		  }, 1000);
+// 		}
+// 
+// 		var timer = new Timer();
+// 
+// 		setTimeout(() => console.log('s1: ', timer.s1), 3100);
+// 		setTimeout(() => console.log('s2: ', timer.s2), 3100);
+		// console.log(this.a)
+		// function b(){
+		// 	console.log(this);
+		// 	this.a=10;
+		// }
+		// b()
+		// console.log(this.a)
+	</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于super指向函数中的this 问题</title>
+	</head>
+	<body>
+		<p>1.虽然super指向的是原型对象，但是指向函数中的this指针在实际运行阶段还是当前对象</p>
+		<p>2.当super.['属性']是一个方法的时候等同于Object.getPrototypeOf(this).foo.call(this)</p>
+	</body>
+	<script>
+		const proto = {
+		  x: 'hello',
+		  foo() {
+			console.log(this.x);
+		  },
+		};
+		const obj = {
+		  x: 'world',
+		  foo() {
+			super.foo();
+		  }
+		}
+		Object.setPrototypeOf(obj, proto);
+		obj.foo() // "world"
+	</script>
+</html>

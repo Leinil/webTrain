@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>零碎的例子</title>
+	</head>
+	<body>
+		<input type="text" value="" onblur="check(this.value)"/>
+	</body>
+	<script>
+		
+// 		var a = [1, 2];
+// 		var b = [1, 2];
+// 		console.log(a == b)
+
+
+// 		var obj={
+// 			1:'数字1',
+// 			'2':'数字2',
+// 			'name':'字符串name'
+// 		};
+// 		var pro='字符串1'
+// 		obj['1']=pro;
+// 		console.log(obj)
+// 		console.log(obj['1'])
+	
+	
+// 	var a=0101;
+// 	console.log(-a)
+// 	var b=101;
+// 	console.log(-b)
+
+// 		var a={};
+// 		console.log(a.prototype);
+// 		console.log(a.__proto__);
+// 		var b=function(){};
+// 		console.log(b.prototype);
+// 		console.log(b.__proto__)
+
+// 		function createObj1(){
+// 			this.p='create a obj';
+// 			this.alertP=function(){
+// 				console.log(this.p)
+// 			}
+// 		}
+// 		var obj1=new createObj1();
+// 		obj1.alertP()
+// 		
+// 		function createObj2(){
+// 			this['p']='create a obj with []';
+// 			this['alertP']=function(){
+// 				console.log(this.p)
+// 			};
+// 		}
+// 		
+// 		var obj2=new createObj2();
+// 		obj2['alertP']
+// 		
+// 		var a={};	
+// 		a.p='this is a obj-pro with [] created';
+// 		console.log(a.p)
+
+// 		var a={
+// 			'discribe':'this is a pro',
+// 			'ex':'this is a pro too',
+// 			'fun1':function(){
+// 				console.log(this.ex)
+// 			}
+// 			// 'fun1':console.log(this.ex)
+// 		}
+// 		a.fun1()
+
+// 		var a=10;
+// 		function fuc(){
+// 			var b=20;
+// 			function fn(){
+// 				console.log(a+b);
+// 			}
+// 			return fn; 
+// 		}
+// 		var b=200;
+// 		var fanhuihanshu=fuc();
+// 		fanhuihanshu()//测试闭包
+
+		//测试回调函数
+// 		function a(callback){
+// 			let a=1;
+// 			let b=2;
+// 			callback(a,b);
+// 		}
+// 		function functionCallBack(x,y){
+// 			console.log('两者相加为'+x+y);
+// 		}
+// 		a(functionCallBack)
+// 		console.log(b);
+		
+// 		//测试闭包
+// 		function f1(){
+// 			let a=1;
+// 			aAdd=function(){
+// 				a=a+1;
+// 			}
+// 			function f2(){
+// 				console.log(a);
+// 			}
+// 			return f2;
+// 		}
+// 		var result=f1()
+// 		result()
+// 		aAdd();
+// 		result();
+
+// 		function fun(n,o) {
+// 		  console.log(o)
+// 		  return {
+// 			fun:function(m){
+// 			  return fun(m,n);
+// 			}
+// 		  };
+// 		}
+// 		var a = fun(0);  a.fun(1);  a.fun(2);  a.fun(3);//undefined,?,?,?
+// 		var b = fun(0).fun(1).fun(2).fun(3);//undefined,?,?,?
+// 		var c = fun(0).fun(1);  c.fun(2);  c.fun(3);//undefined,?,?,?
+// 		
+// 		console.log(fun(0).fun(1).fun(2))
+
+//问:三行a,b,c的输出分别是什么？
+// 		//关于闭包比较简单的例子
+// 		function test(num){
+// 			var i=1;
+// 			if(num===222){
+// 				var j=0;
+// 				for(var k=0;K<2;k++){
+// 					console.log(k);
+// 				}
+// 				console.log(k);
+// 			}
+// 			console.log(i);
+// 			console.log(j);
+// 			console.log(k);
+// 			console.log(m);
+// 		}//在函数的局部作用域中,首先定义并赋值了i.所以i等于1;在js中只有eval和函数以及全局作用域没有块级作用域,所以对于j,k来说都是一样的都会在函数作用域之下定义二者.而之后并没有完成对他们的赋值
+// 		//所以还是undefined.m变量根本没有定义所以会报错
+		
+		
+		
+// 		//关于作用域和闭包比较难的例子
+// 		var o=1;
+// 		function fun(n,o){
+// 			console.log(o)
+// 			return {
+// 				fun:function(m){
+// 					return fun(m,n);
+// 				}
+// 			}
+// 		}
+// 		console.log(fun())
+
+//		关于this指针函数作用域\闭包的例子(箭头函数与构造函数)
+/**
+ * Question 1
+ */
+// 
+// 		var name = 'window'
+// 
+// 		var person1 = {
+// 		  name: 'person1',
+// 		  show1: function () {
+// 			console.log(this.name)
+// 		  },
+// 		  show2: () => console.log(this.name),
+// 		  show3: function () {
+// 			return function () {
+// 			  console.log(this.name)
+// 			}
+// 		  },
+// 		  show4: function () {
+// 			return () => console.log(this.name)
+// 		  }
+// 		}
+// 		var person2 = { name: 'person2' }
+// 
+// 		person1.show1() // person1
+// 		person1.show1.call(person2) // person2
+// 
+// 		person1.show2() // window
+// 		person1.show2.call(person2) // window
+// 
+// 		person1.show3()() // window
+// 		person1.show3().call(person2) // person2
+// 		person1.show3.call(person2)() // window
+// 
+// 		person1.show4()() // person1
+// 		person1.show4().call(person2) // person1
+// 		person1.show4.call(person2)() // person2
+// 		
+// 		//构造函数 
+// 		var name = 'window'
+// 		function Person (name) {
+// 		  this.name = name;
+// 		  this.show1 = function () {
+// 			console.log(this.name)
+// 		  }
+// 		  this.show2 = () => console.log(this.name)
+// 		  this.show3 = function () {
+// 			return function () {
+// 			  console.log(this.name)
+// 			}
+// 		  }
+// 		  this.show4 = function () {
+// 			return () => console.log(this.name)
+// 		  }
+// 		}
+// 
+// 		var personA = new Person('personA')
+// 		var personB = new Person('personB')
+// 
+// 		personA.show1()
+// 		personA.show1.call(personB)
+// 
+// 		personA.show2()
+// 		personA.show2.call(personB)
+// 
+// 		personA.show3()()
+// 		personA.show3().call(personB)
+// 		personA.show3.call(personB)()
+// 
+// 		personA.show4()()
+// 		personA.show4().call(personB)
+// 		personA.show4.call(personB)()
+
+		//关于this函数中嵌套
+// 		var obj = {
+// 			y: function() {
+// 				console.log(this === obj)
+// 				getX()
+// 				function getX(){
+// 					console.log(this === obj)
+// 					console.log(this)
+// 				}
+// 			}
+// 		}
+// 		obj.y()
+// 			//箭头函数this指向问题
+// 			var x = 1
+// 			var obj = {
+// 			  x: 2,
+// 			  y: function() {
+// 			      var getX = function(){
+// 			           console.log(this.x)
+// 			      }
+// 			      return get
+// 			  }
+// 			}	
+// 			
+// 			console.log(obj.y())
+// 			var a = obj.y
+// 			a()               // 1
+// 		let a=[0];
+// 		console.log([3][0])
+
+// 		console.log(typeof "undefined") //"string"
+// 		console.log(typeof null) //"object"
+// 		
+// 		var message='some string';
+// 		console.log(typeof message); //"string"
+// 		message=100;
+// 		console.log(typeof message);//"number"
+// 		var a;
+// 		var b=null;
+// 		var c={};
+// 		if(a&&b&&c){
+// 			console.log('true');
+// 		}
+// 		else {
+// 			console.log('false');
+// 		}//输出 'false'
+// 		var judgeNAN=0/0;
+// 		var a=NaN;
+// 		console.log(Boolean(null))
+// 		console.log(Number('123s'))//'NaN'
+// 		console.log(parseInt('123S'))//123
+// 		console.log(3.14E-7 === 0.000000314);   //ture
+// 		console.log(0.1+0.2);
+// 		console.log(0.1+0.1)
+// 		console.log(0.1 + 0.6 === 0.7); // ture
+// 		console.log(0.1 + 0.7 === 0.8); // false
+// 		console.log(0.1+0.2)
+// 		console.log(NaN===NaN);// false
+
+		//上述案例深入思考:关于js小数精度出现问题的原因以及解决方法..
+		
+		//首先	
+// 		console.log(parseFloat(1.2.3))
+// 		console.log(parseFloat('1.2.3'))
+// 		console.log(parseFloat('1.23e+5'))
+// 		console.log(1.55.toFixed(1));
+// 		console.log(1.555.toFixed(2));
+// 		console.log(1.5555.toFixed(3));
+
+// 		//重写toFixed
+// 		function toFixed(num, s) {
+// 			if(typeof s==='undefined'){
+// 				return parseInt(num)+'';
+// 			}
+// 			if(typeof s!=='number'){
+// 				return '请正确输入保留位数（数字）';
+// 			}
+// 			var times = Math.pow(10, s);
+// 			var newNum = num * times+0.5;//加0.5是为了实现四舍五入中"入"的那0.5
+// 			newNum = parseInt(newNum) / times;
+// 			return newNum + ''//toFixed返回的是字符类型的数据
+// 		}
+// 		console.log(toFixed(1.5))
+// 		console.log(toFixed(1.55,1))
+// 		console.log(toFixed(1.555,2))
+// 		console.log(toFixed(1.5555,3))
+
+		//解决数据精度问题,重写加减乘除函数
+// 		function getDecimalLength(num){ //获取小数位长度
+// 			let length=0;
+// 			try{
+// 				length =String(num).split('.')[1].length
+// 			}catch(e){
+// 				//TODO handle the exception
+// 			}
+// 			return length;
+// 		}
+// 		
+// 		function getBeishu(num1,num2){
+// 			let num1DecimalLength=getDecimalLength(num1);
+// 			let num2DecimalLength=getDecimalLength(num2);
+// 			let longer=Math.max(num1DecimalLength,num2DecimalLength);
+// 			return Math.pow(10,longer);
+// 		}
+// 		
+// 		
+// 		//加减乘除算法
+// 		function add(num1,num2){
+// 			let beishu=getBeishu(num1,num2);
+// 			return (num1*beishu+num2*beishu)/beishu;
+// 		}
+// 		
+// 		function sub(num1,num2){
+// 			let beishu=getBeishu(num1,num);
+// 			return (num1*beishu-num2*beishu)/beishu;
+// 		}
+// 		
+// 		function mul(num1,num2){
+// 			let num1DecLen=getDecimalLength(num1);
+// 			let num2DecLen=getDecimalLength(num2);
+// 			let num1toStr=String(num1);
+// 			let num2toStr=String(num2);
+// 			return Number(num1toStr.replace('.',''))*Number(num2toStr.replace('.',''))/Math.pow(10,num1DecLen+num2DecLen)
+// 		}
+// 		
+// 		
+// 		function dev(num1,num2){
+// 			let num1DecLen=getDecimalLength(num1);
+// 			let num2DecLen=getDecimalLength(num2);
+// 			let num1toStr=String(num1);
+// 			let num2toStr=String(num2);
+// 			return Number(num1toStr.replace('.',''))/Number(num2toStr.replace('.',''))/Math.pow(10,num1DecLen-num2DecLen)
+// 		}
+// 		console.log(add(0.1,0.2))
+// 		console.log(mul(19.9,100))
+// 		console.log(dev(1.3,0.2))
+
+// 		function joke(){
+// 			var undefined='hello world';
+// 			console.log(undefined);
+// 		}
+// 		joke();
+// 		console.log(undefined)
+// 		var a=023;
+// 		console.log(a);
+// 		console.log(+'   0x123')
+// 		console.log(Number('023'))
+
+		// console.log(Infinity/1)
+// 		let a =5;
+// 		let b =10;
+// 		console.log('二者相加位'+(a+b));
+// 		console.log(0-0)
+		
+// 		var a=[1,4,3];
+// 		for(i in a){
+// 			console.log(i);
+// 		}
+// 		coq	nsole.log(0 in a);
+		
+// 		var a={
+// 			x:1,
+// 		};
+// 		var b={
+// 			x:2,
+// 		}
+// 		console.log(a&&1)
+		
+// 		//把p中的可枚举属性复制到o中,并返回<object>
+// 		//如果o和p中含有同名属性,则覆盖o中的属性
+// 		let a={
+// 			a:1,
+// 			b:2,
+// 			c:6
+// 		};
+// 		let b={
+// 			a:2,
+// 			c:3
+// 		};
+// 		function extend(o,p){
+// 			for( let i in p){
+// 				o[i]=p[i]
+// 			}
+// 			console.log(o)
+// 			return o;
+// 		}
+// 		
+// 		function merge(o,p){
+// 			for( let i in p){
+// 				if(!o.hasOwnProperty(i)){
+// 					o[i]=p[i]
+// 				}
+// 			}
+// 			console.log(o)
+// 			return o;
+// 		}
+// 		
+// 		function restrict(o,p){
+// 			for( let i in p){
+// 				if(!o.hasOwnProperty(i)){
+// 					o[i]=p[i]
+// 				}
+// 			}
+// 			console.log(o)
+// 			return o;
+// 		}
+// 		// extend(a,b)
+// 		merge(a,b);
+		
+		// function check(val){
+		// 	var reg=/[1-9]\d{3,10}\d$/;
+		// 	console.log(val);
+		// 	console.log(reg.test(val))
+		// 	if(!reg.test(val)){
+		// 		alert("shuruyouwu")
+		// 	}
+		// }
+		
+		// var str='this is block of of text ,here are are';
+		// var reg=/ (\w+) \1/g;
+		// console.log(reg.test(str))
+		// console.log(str.replace(str.match(reg),' $1'))
+		
+		// var str= "cat2,cat8" ;
+		// var p=/c(at)\d/;
+		// console.log(p.exec(str))
+		// console.log(str.match(p))
+		
+		// var someText="web2.0 .net2.0";
+		// var pattern=/(\w+)(\d)\.(\d)/g;
+		// var outCome_exec=pattern.exec(someText);//web2.0,2,0
+		// var outCome_matc=someText.match(pattern);//web2.0,
+		// console.log(outCome_exec);
+		// console.log(outCome_matc);
+		
+		// var str=`
+		// bear
+		// n
+		// alien 
+		// aborb`;
+		// var reg=/\w*n\b/g;
+		// console.log(str.match(reg))
+		
+		// var str='this is block of of text ,here are are';
+		// var reg=/\b(?<name>\w+) \1/g;
+		// console.log(str.replace(reg,'$<name>'));
+		
+		// //将邮件地址转换为超链接
+		// var str='hello ben@qq.com is my email';
+		// var str1='hello <a href src="ben@qq.com">this</a> is my email'
+		// var reg=/(\w*@qq.com\b)/g;
+		// console.log(str.replace(reg,"<a href src='$1'>this</a>"))
+		
+		// //贪婪模式
+		// var str='abc8defhij7klngon8qrstwxy7';
+		// var reg1=/8\w*7/;
+		
+	</script>
+</html>
+
