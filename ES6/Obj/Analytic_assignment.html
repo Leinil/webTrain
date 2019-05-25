@@ -5,5 +5,21 @@
 		<title>关于对象中的解析赋值</title>
 	</head>
 	<body>
+		<p>1.解析赋值相当于是进行一次浅赋值（...在此处理解为解析复制）</p>
+		<p>2.不会原始对象本身的属性，不会复制它从原型继承下来的属性</p>
+		<p>3.和数组一样，对象解析中的扩展运算符必须在最后面</p>
+		<p>4.例子中的Object.create创建了一个以{x:1,y:2}为原型的对象</p>
+		<p>另外需要注意的是{}与{...}是有很大的区别的前者可以解析等号右边所有可遍历属性，而后者的话只能解析当前对象自身的属性</p>
 	</body>
+	<script>
+		const o = Object.create({ x: 1, y: 2 });
+		o.z = 3;
+		console.log(o);//{z:3}
+		let { x, ...newObj } = o;//这个地方x可以获取到原型对象上的x,而newObj其实只有{z:3}
+		let { y, z } = newObj;
+		console.log(x);
+		console.log(newObj)
+		console.log(y);
+		console.log(z);
+	</script>
 </html>
