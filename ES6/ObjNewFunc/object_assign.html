@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于object新增的assign方法</title>
+	</head>
+	<body>
+		<p>当object.assign的非首参数不是对象的时候，只有当其为字符串的时候会以数组的形式返回给目标对象，其他的都不会有什么结果 ->exp1</p>
+		<p>Object.assign 只会拷贝原对象自身的属性而不会去拷贝继承下来的属性，也不拷贝不可枚举的属性</p>
+		<p>object.assign实行的是浅拷贝，也就是说当原对象的每一个属性是一个对象的话则拷贝的结果是这个对象的引用 -> exp2</p>
+	</body>
+	<script>
+		//exp1
+		var str='abc';//只有字符串对象会产生枚举属性
+		var num=1111;
+		var bool=true;
+		var obj={}
+		Object.assign(obj,str,num,bool);
+		console.log(obj)
+		
+		//exp2
+		
+		var obj={a:{b:21}};
+		var obj_new={};
+		Object.assign(obj_new,obj);
+		console.log(obj_new.a);
+		obj.a.b=1;
+		console.log(obj_new.a);
+	</script>
+</html>

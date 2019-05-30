@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>测试是否可以使用easy-mock</p>
+	</body>
+	<script>
+		function getJson(url){
+			const promise=new Promise(function(resolve,reject){
+				console.log('222')
+				const changeState=function (){
+					if(this.readyState!=4){
+						return 
+					}
+					if(this.status===200){
+						resolve(this.response)
+					}
+					else{
+						reject(this.statusText)
+					}
+				}
+				
+				const ajax=new XMLHttpRequest();
+				ajax.open("GET",url,true);
+				ajax.onreadystatechange=changeState;
+				ajax.send()
+			})
+		
+			return promise
+		}
+		console.log('11111')
+		getJson("https://www.easy-mock.com/mock/5cef4571961f5a3c06868cdc/example/mock").then(function(json){console.log(json)},function(error){console.error('出错',error)})
+	</script>
+</html>
