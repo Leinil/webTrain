@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于Promise的all和race</title>
+	</head>
+	<body>
+		<h1>all</h1>
+		<p>开始调用all之后的函数有两种情况，一种是all中的promise实例的返回值全是reject，第二种是all中的返回值是resolve</p>
+		<p>如果all中的实例和all同时包含catch，如果实例在变为reject之后只会调用实例中的catch而不会调用all的catch（感觉就是在之中情况下all之后再写catch没什么用）</p>
+
+		<h1>race</h1>
+		<p>和all一样的是race接受一组promise实例，但是race是选中这一组实例中最先发生变化的那组结果当作返回值。也就是说他只有一组结果</p>
+	</body>
+	<script>
+		//all
+		const p1 = new Promise((resolve, reject) => {
+				resolve('hello');
+			})
+			.then(result => result);
+
+		const p2 = new Promise((resolve, reject) => {
+				throw new Error('报错了');
+			})
+			.then(result => result);
+
+		Promise.all([p1, p2])
+			.then(result => console.log(result))
+			.catch(e => console.log(e));
+
+		//race(如果5面之内fetch没有返回结果则执行reject中的代码 )
+		const p = Promise.race([
+			fetch('/resource-that-may-take-a-while'),
+			new Promise(function(resolve, reject) {
+				setTimeout(() => reject(new Error('request timeout')), 5000)
+			})
+		]);
+
+		p.then(console.log).catch(console.error);
+	</script>
+</html>
