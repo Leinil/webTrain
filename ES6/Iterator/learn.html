@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Iterator</title>
+	</head>
+	<body>
+		<p>iterator就是为所有数据结构提供统一的访问机制（for ...of）当使用for of 的时候就会自动的寻找for of接口</p>
+		<p>如果某数据结构部署了Iteration接口，就可以使用[Symbol.iterator]来返回遍历器对象（具有next方法的对象）</p>
+		<p>有一些数据结构原生 就会有[Symbol.iterator]，这样的数据结构使用for of 会自动调用他们</p>
+		<p>原生上没有[Symbol.iterator]的，只要设置了[Symbol.iterator]也可以使用for of</p>
+		<p>遍历器对象的return是在for of 提前退出的时候使用的。另外return必须返回一个对象</p>
+		<p> 数组 的遍历器接口使用for of 的时候只返回具有数字索引的属性。而原生的for in则是返回所有可遍历属性。这一点是不同的</p>
+	</body>
+	<script>
+		var obj={
+			"0":'1',
+			"1":2,
+			[Symbol.iterator]:Array.prototype[Symbol.iterator],
+			length: 3,
+		}
+		
+		for (let i of obj){
+			console.log(i)
+		}
+		
+		//for in 与for of
+		var arr=[1,2,3,4];
+		arr.foo='hello';
+		console.log(arr)
+		
+		for (let data in arr){
+			console.log(data)
+		}
+		
+		for (let data of arr){
+			console.log(data)
+		}
+	</script>,
+</html>

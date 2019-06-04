@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Generator</title>
+	</head>
+	<body>
+		<p>Generator返回一个遍历器对象，每次需要使用next来执行。感觉Genetor就是一种的interator函数形式</p>
+		<p>next每次返回一个对象，对象属性分别是value和done</p>
+		<p>yield是惰性求值，只有next指针指到这个地方的时候才会执行（当然不管generator中是否有yield语句，都只能在使用next之后才会执行）</p>
+
+		<p>有趣的一点是：我们需要注意，yield只能在generator中出现，所以如果一个generator函数中希望对一个数组遍历，且将结果遍历值嵌入generator的时候，是不能使用arr。forEach的</p>
+		<p>但是我们可以用for循环。。。。</p>
+		<p>如果在另一个表达式中使用了yield 的话需要用（）将yield 括起来</p>
+	</body>
+	<script>
+		//必须要等next调用之后才能执行console
+		// function* f() {
+		// 	console.log('执行了！')
+		// }
+		// var generator = f();
+		// setTimeout(function() {
+		// 	generator.next()
+		// }, 2000);
+
+		//generator函数的yield本身没有返回值,通常都是undefined.但是当next中带有参数的时候,就会将其作为上一个yield的返回值
+		function* f() {
+			for (var i = 0; true; i++) {
+				var reset = yield i;
+				console.log(reset);
+				if (reset) {
+					i = -1;
+				}
+			}
+		}
+
+		var g = f();
+
+		g.next() // { value: 0, done: false }
+		g.next() // { value: 1, done: false }
+		g.next(true) // { value: 0, done: false }
+	</script>
+</html>
