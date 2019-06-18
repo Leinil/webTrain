@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于js事件中的宏事件和微事件</title>
+	</head>
+	<body>
+		<a href="https://juejin.im/post/5a6547d0f265da3e283a1df7">参考资料</a>
+		<p>实际的例子中可以拿因为promise请求具有相应时间的问题排在后面，但是那个参考文章中的例子的话是直接promise.resolve就直接过了，几乎是连续执行的</p>
+		<script>
+			console.log('script start');
+			
+			function getJson(url){
+				const promise=new Promise(function(resolve,reject){
+					console.log('222')//还在js线程中,因为还没与触发请求还没有触发事件触发线程
+					const changeState=function (){
+						if(this.readyState!=4){
+							return 
+						}
+						if(this.status===200){
+							resolve(this.response)
+						}
+						else{
+							reject(this.statusText)
+						}
+					}
+					
+					const ajax=new XMLHttpRequest();
+					ajax.open("GET",url,true);
+					ajax.onreadystatechange=changeState;
+					ajax.send()
+				})
+			
+				return promise
+			}
+			getJson("https://www.easy-mock.com/mock/5cef4571961f5a3c06868cdc/example/mock").then(function(json){console.log(json)},function(error){console.error('出错',error)})
+			setTimeout(function(){
+				console.log('settimeout');
+			},0)
+			
+			console.log('script end');
+		</script>
+	</body>
+</html>
