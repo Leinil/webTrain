@@ -6,6 +6,7 @@
 	</head>
 	<body>
 		<p>测试是否可以使用easy-mock</p>
+		<p>暂时不知道关于open第三个参数的实际具体细节</p>
 	</body>
 	<script>
 		function getJson(url){
@@ -31,7 +32,6 @@
 		
 			return promise
 		}
-		console.log('11111')
 		getJson("https://www.easy-mock.com/mock/5cef4571961f5a3c06868cdc/example/mock").then(function(json){console.log(json)},function(error){console.error('出错',error)})
 	</script>
 </html>

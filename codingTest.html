@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<ul id="ul">
+			<li>1</li>
+			<li id="li2">2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+	</body>
+	<script>
+		function asyncForEach(arr,handle){
+			let t=setInterval(function(){
+				if(arr.length===0){
+					clearTimeout(t);
+				}else{
+					handle(arr.shift())
+				}
+			},0)
+		};
+		var arr=new Array(9999);
+		arr.fill(1);
+		// arr.forEach(item=>{
+		// 	console.log(item);
+		// });
+		
+		asyncForEach(arr,function(value){
+			console.log(value,'ziji');
+		})
+	</script>
+</html>

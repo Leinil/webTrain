@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>leetcode习题</title>
+	</head>
+	<body>
+	</body>
+	<script>
+		function judge(string,longest){
+			const result=string.split('').reverse().join('')===string;
+			if(result){
+				return string.length>longest.length?string:longest
+			}
+			return longest
+		}
+		let longest='';
+		function longestPalindrome(s){
+			for(let i=0;i<s.length;i++){
+				let findOtherWord=s.indexOf(s[i],i+1);
+				if(findOtherWord!=-1){
+					const tempString=s.substring(i,findOtherWord+1)
+					longest=judge(tempString,longest);
+					console.log(longest,'最长');
+				}
+			}
+			
+		}
+		longestPalindrome('pwwpkew');
+		console.log(longest);
+	</script>
+</html>
