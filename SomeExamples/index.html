@@ -16,21 +16,71 @@
 		</div>
 	</body>
 	<script>
-		Function.prototype.call2=function(obj){
-			const someParams=Array.prototype.slice.call(arguments).slice(1);
-			console.log(someParams);
-			obj.func=this;//this获取
-			obj.func();//这时的this中的this就是我传入的对象了
-			delete obj.func;
+		function SuperType(name) {
+			this.name = name;
+			this.colors = ["red", "blue", "green"];
 		}
+		SuperType.prototype.sayName = function() {
+			alert(this.name);
+		};
+
+		function SubType(name, age) {
+			SuperType.call(this, name);
+			this.age = age;
+		}
+
+		SubType.prototype = new SuperType();
+		SubType.prototype.constructor = SubType;
+		SubType.prototype.sayAge = function() {
+			alert(this.age);
+		};
+
+		var instance1 = new SubType("Nicholas", 29);
+		var instance2 = new SubType('Mark',23); 
 		
-		var obj={
-			a:1
-		}
-		function testCall(){
-			console.log(this.a);
-		}
-		testCall.call2(obj,1)
+		console.log(instance1);
+		console.log(instance2);
+		//这个地方的结果之所以不一样,是因为Foo修改了a的构造函数的Prototype属性,这时的__proto__是一个对象,但是不具有constructor属性,所以需要继续往上查找,直到找到Object为止.
+		//仔细观察就可以知道,如果foo只修改Foo.prototype.method=function(){}结果就会改变.
+		// function Parent(age){
+		// 	this.age=age;
+		// }
+		// var p=new Parent(50);
+		// console.log(p.__proto__)
+		// console.log(p.constructor==Parent)
+		// 
+		// 
+		// // 函数的构造函数（Function.constructor）
+		//       function Foo() {
+		//           this.value = 42;
+		//       }
+		//       Foo.prototype = {
+		//           method: function() {}
+		//       };
+		// 
+		// // Foo.prototype.method=function(){};
+		// var a=new  Foo();
+		// console.log(a.__proto__)
+		// console.log(a.constructor===Object)
+
+
+
+		//实现call
+		// Function.prototype.call2=function(obj){
+		// 	const someParams=Array.prototype.slice.call(arguments).slice(1);
+		// 	console.log(someParams);
+		// 	obj.func=this;//this获取
+		// 	obj.func();//这时的this中的this就是我传入的对象了
+		// 	delete obj.func;
+		// }
+		//
+		// var obj={
+		// 	a:1
+		// }
+		// function testCall(){
+		// 	console.log(this.a);
+		// }
+		// testCall.call2(obj,1)
 		// console.log(realizeCall(foo,obj));
 		//console.log(foo.call(obj))
 		// 		var a = [1, 2];
@@ -657,39 +707,39 @@
 		// }
 		// obj.say()
 
-// 		var name = 'window'
-// 
-// 		function Person(name) {
-// 			this.name = name;
-// 			this.show1 = function() {
-// 				console.log(this.name)
-// 			}
-// 			this.show2 = () => console.log(this.name)
-// 			this.show3 = function() {
-// 				return function() {
-// 					console.log(this.name)
-// 				}
-// 			}
-// 			this.show4 = function() {
-// 				return () => console.log(this.name)
-// 			}
-// 		}
-// 
-// 		var personA = new Person('personA')
-// 		var personB = new Person('personB')
-// 
-// 		personA.show1()//personA
-// 		personA.show1.call(personB)//personB
-// 
-// 		personA.show2()//personA
-// 		personA.show2.call(personB)//personA
-// 
-// 		personA.show3()()
-// 		personA.show3().call(personB)
-// 		personA.show3.call(personB)()
-// 
-// 		personA.show4()()
-// 		personA.show4().call(personB)
-// 		personA.show4.call(personB)()
+		// 		var name = 'window'
+		// 
+		// 		function Person(name) {
+		// 			this.name = name;
+		// 			this.show1 = function() {
+		// 				console.log(this.name)
+		// 			}
+		// 			this.show2 = () => console.log(this.name)
+		// 			this.show3 = function() {
+		// 				return function() {
+		// 					console.log(this.name)
+		// 				}
+		// 			}
+		// 			this.show4 = function() {
+		// 				return () => console.log(this.name)
+		// 			}
+		// 		}
+		// 
+		// 		var personA = new Person('personA')
+		// 		var personB = new Person('personB')
+		// 
+		// 		personA.show1()//personA
+		// 		personA.show1.call(personB)//personB
+		// 
+		// 		personA.show2()//personA
+		// 		personA.show2.call(personB)//personA
+		// 
+		// 		personA.show3()()
+		// 		personA.show3().call(personB)
+		// 		personA.show3.call(personB)()
+		// 
+		// 		personA.show4()()
+		// 		personA.show4().call(personB)
+		// 		personA.show4.call(personB)()
 	</script>
 </html>

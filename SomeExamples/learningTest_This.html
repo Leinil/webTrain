@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>一些学习中的测试例子</title>
+	</head>
+	<body>
+	</body>
+	<script>
+		// //严格模式在函数中使用时默认绑定失效,但是在函数环境中使用的时候不会影响到函数的默认this绑定.
+		// var a='window';
+		// //在严格模式下使用函数
+		// 'use strict';
+		// function testStrctGlobal(){
+		// 	console.log(this.a)
+		// };
+		// testStrctGlobal();
+		// 
+		// 
+		// //函数中使用严格模式
+		// function testStrictFunc(){
+		// 	'use strict';
+		// 	console.log(this.a)
+		// }
+		// testStrictFunc();
+
+		//函数在作为参数传递的时候会出现隐式赋值,从而造成this绑定的丢失   
+
+		//call和aply的显示绑定
+		// var a='window';
+		// function foo(){
+		// 	console.log(this.a);
+		// }
+		// 
+		// var obj={
+		// 	a:'obj',
+		// }
+		// 
+		// foo.call(obj);
+		// setTimeout(foo(),100);
+
+		//bind的函数柯里化
+		// function add(a) {
+		// 	function inner(b) {
+		// 		a += b;
+		// 		return inner
+		// 	}
+		// 	inner.toString = function() {
+		// 		return 1
+		// 	}
+		// 	inner.getValue=function(){
+		// 		return a;
+		// 	}
+		// 	return inner
+		// }
+		// const result=add(1)(2)(4)
+		// console.log(result.getValue())
+
+		// function add(a) {
+		// 	function sum(b) { // 使用闭包
+		// 		a = a + b; // 累加
+		// 		return sum;
+		// 	}
+		// 	sum.toString = function() { // 重写toString()方法
+		// 		return a;
+		// 	}
+		// 	return sum; // 返回一个函数
+		// }
+		
+		// console.log(typeof Function.prototype);
+		// console.log(Object.prototype.toString([1]))
+	</script>
+	<script src="realize_SomeThings.js"></script>
+</html>

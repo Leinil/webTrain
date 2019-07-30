@@ -24,13 +24,43 @@
 // }
 // testCall.call2(obj)
 
-Function.prototype.call = function (context) {
-  context = context ? Object(context) : window; //Object（）是为了将基本类型转为对象
-  context.fn = this;
+// Function.prototype.call = function (context) {
+//   context = context ? Object(context) : window; //Object（）是为了将基本类型转为对象
+//   context.fn = this;
+//
+//   let args = [...arguments].slice(1);//只设用于es6
+//   let result = context.fn(...args);
+//
+//   delete context.fn
+//   return result;
+// }
 
-  let args = [...arguments].slice(1);//只设用于es6
-  let result = context.fn(...args);
 
-  delete context.fn
-  return result;
+//深拷贝
+
+var b={
+  'name':'Leiemi',
+  'age':'21',
+  'intress':{
+    'move':1,
+      'game':1,
+      'food':2
+  }
+};
+function deepClone(source) {
+    var target={};
+    for( key in source){
+      if(Object.prototype.hasOwnProperty.call(source,key)){
+        if(typeof source[key]=='object'){
+          target[key]=deepClone(source[key])
+        }
+        else{
+          target[key]=source[key]
+        }
+      }
+    }
+    return target;
 }
+var a=deepClone(b);
+b.intress.move=3;
+console.log(a);
