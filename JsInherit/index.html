@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS继承</title>
+</head>
+<style>
+.d2{
+    width: 0; 
+    height: 0;
+    border-width: 100px;
+    border-style: solid;
+    border-color:#FFCCCC #0099CC #996699 #339933;
+}
+</style>
+<body>
+    <div class="d2"></div>
+    <a href="https://github.com/yygmind/blog/issues/7">本文的参考文献</a>
+    <p>关于js的继承主要有三种，基础的组合继承和寄生组合继承以及现在经常用到的extends</p>
+    <p>其余的继承方式不是没有，主要是我觉得一般都会存在引用变量被任意修改的问题，这是一个很大的问题，在实践情况下肯定是不能出现的，就没有细看</p>
+</body>
+<script>
+    //组合继承
+    //组合继承存在的问题，由于子类在创建过程中，实际上是调用了父类的构造函数的，所以会存在两份一样的属性/方法（就以本例而言多了一个food属性）
+    function parent(){
+        this.name='parent';
+        this.age='21';
+        this.food=['apple','meat']
+    }
+    parent.prototype.getName=function(){
+        return this.age;//这里故意写成年龄，以便之后直观展示继承效果
+    }
+
+    function son(){
+        parent.call(this);
+        this.name='son';
+        this.age='20';
+    };
+    son.prototype=new parent();
+    //这里对son函数原型的修改要在new之后，因为new操作会覆盖son的原本prototype
+    son.prototype.constructor=son;
+    son.prototype.getName=function(){
+        return this.name;
+    }
+
+    // var inherit1=new son();
+    // var inherit2=new son();
+    // inherit1.food.push('water');
+    // console.log(inherit1);
+    // console.log(inherit2);
+    // console.log(inherit1.getName());
+
+    //寄生组合继承
+    //主要是利用了Object.create()创建了一份原型的副本，所以在不改变原始原型链的情况下完成了继承。
+    function jsInherit(parent,son){
+        // let prototype=son.prototype;
+        // prototype=Object.create(parent.prototype);
+        // prototype.constructor=son;
+        //我这种写法,对于父类的继承错误。Object.create返回的是一个对象实例，那这样我其实是继承的是Object.prototype;
+
+        //现在修改一下代码
+        var parentPrototype=Object.create(parent.prototype);//创建一个副本，这个副本包含了父类的原型信息
+        parentPrototype.constructor=son;//修改这个副本的构造函数
+        son.prototype=parentPrototype;//将子类的原型改为我现在的副本对象
+    };
+
+    //父函数
+    function superType(name){
+        this.name=name;
+        this.colors=['red','black','blue'];
+    }
+    superType.prototype.getName=function(){
+        return this.name;
+    }
+
+    //子函数
+    function subType(name){
+        superType.call(this,name);
+    }
+
+    jsInherit(superType,subType);
+    subType.prototype.getColors=function(){
+        return this.colors;
+    };
+
+    var inherit1=new subType('lei1');
+    var inherit2=new subType('lei2');
+    console.log(inherit1);
+    inherit1.colors.push('green')
+    console.log(inherit2);
+    console.log(inherit1.getColors());
+    
+    //混入方式继承多个对象
+    //这个地方和寄生组合其实有点像，后续的话应该还可以继续完善一下，直接把Myclass改成是一个函数
+    function Myclass(){
+        SuperClass.call(this);
+        OtherSuperClass.call(this);
+    }
+    Myclass.prototype=Object.create(SuperClass.prototype);
+    Object.assign( Myclass.prototype,OtherSuperClass.prototype);
+    Myclass.prototype.constructor=Myclass;
+    Myclass.prototype.myMethod=function(){
+
+    }//加入其他新的方法
+
+    //ES6加入的继承方法为Extends
+    //但是需要注意的是使用extends的时候，class为类的表达式。所以须在class example{}之后再使用new等操作。
+    </script>
+</html>
