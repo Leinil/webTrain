@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于css BFC</title>
+</head>
+<style>
+    #firstDiv {
+        width: 50%;
+        height: 100px;
+        background: red;
+        float: left;
+    }
+
+    #secondDiv {
+        height: 150px;
+        overflow: hidden;
+        background: black;
+    }
+
+    .par {
+
+        border: 5px solid #fcc;
+        overflow: hidden;
+        /* 利用bfc的高度计算方式 */
+        width: 300px;
+
+    }
+
+
+
+    .child {
+
+        border: 5px solid #f66;
+
+        width: 100px;
+
+        height: 100px;
+
+        float: left;
+
+    }
+    #block{
+        display: block;
+    }
+    #left {
+        width: 180px;
+        height: 100px;
+        float: left;
+        background-color: green
+    }
+
+    #right {
+        float: right;
+        width: 180px;
+        height: 100px;
+        background-color: #f66
+    }
+    #center{
+        overflow: hidden;
+        background: yellow;
+        height: 100px;
+    }
+</style>
+
+<body>
+    <!-- 二分页面 -->
+    <!-- 自适应多栏布局 -->
+    <div id='firstDiv'></div>
+    <div id='secondDiv'></div>
+
+    <!-- 清除浮动 -->
+    <div class="par">
+
+        <div class="child"></div>
+
+        <div class="child"></div>
+
+    </div>
+
+    <!-- 自适应两栏布局 -->
+    <div id='block'>
+        <div id='left'></div>
+        <div id='right'></div>
+        <div id='center'>
+            <span>asdfsd</span>
+        </div>
+    </div>
+
+    <!-- 一、关于布局
+    关于盒子（行内盒、匿名盒 ）
+    display :block \list-item\table
+    行内盒：display:inline\inline-block\inline-table;(行内级元素)
+
+    关于常规流的static和relative：
+        static是常规流中的布局里的位置，relative是相对定位 是有left、top等这些偏移属性的
+        但是就算是有偏移、仍然保留原有的位置，其他的常规流不能占用这个位置
+    
+    二、关于BFC
+    块格式化上下文：
+        用于决定块盒子布局及浮动相互影响的一个区域（一个区域、相互之间收到不同布局的影响）
+    BFC创建的方式
+        1.根元素
+        2.浮动 float不为none的时候
+        3.绝对定位
+        4.行内块
+        5.表格单元格
+        6.overflow不为visible 的时候
+        7.flex布局
+
+        一个元素不能同时存在两个BFC中。BFC的一个重要效果就是让处于内部的元素与外部元素相互隔离、使得
+        内外部元素之间的布局不受影响。利用这一特性可以清除浮动
+    
+    三、BFC的规则
+        1.内部的盒子会在垂直方向上一个接一个的排列
+        2.处于同一个BFC中的元素相互影响、可能会发生margin collapse：
+        3.每个元素的margin box的左边与容器块border box 的左边相互接触即使存在浮动也是这样的（这个就是做自适应二分布局时用到的）
+        4.Bfc是一个页面上隔离的单独的容器
+        5.计算BFC的高度的时候考虑所有包含的元素，这时候连浮动元素也要参与计算（宽度？）
+        6.浮动盒子区域不叠加到BFC上 -->
+</body>
+
+</html>

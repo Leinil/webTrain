@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>发布订阅者模式</title>
+</head>
+<body>
+    <a href='https://juejin.im/post/5b125ad3e51d450688133f22'>参考文献</a>
+    <form action="">
+        <input type="submit" id="hi" style="display: none;">
+        <label for="hi">提交</label>
+    </form>
+</body>
+<script>
+
+    let crop={};
+    crop.list=[];
+
+    //订阅事件
+    crop.on=function(fn){
+        this.list.push(fn);
+    }
+
+    //发布事件
+    crop.emit=function(){
+        this.list.forEach(fn=>{
+            fn.apply(this.arguments);
+        })
+    }
+</script>
+</html>
