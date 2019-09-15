@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>节流与防抖</title>
+</head>
+<style>
+    #debounce {
+        width: 100px;
+        height: 100px;
+        background: red
+    }
+    #throttle{
+        width: 100px;
+        height: 100px;
+        background: black;
+        color: white;
+        
+    }
+</style>
+
+<body>
+    <p>
+        函数的节流与防抖的区别：在于其执行次数
+        函数防抖的意思是 在一段时间中多次触发的时候只有最后一次有效
+        函数节流的话是在一段时间中多次触发的话只有一次有效
+    </p>
+    <div id='debounce'>
+        防抖
+    </div>
+    <div id='throttle'>
+        节流
+    </div>
+</body>
+<script>
+    //防抖
+    function debounce() {
+        let timer = null;
+        return function () {
+            if (timer) {
+                clearTimeout(timer);
+            }
+            timer = setTimeout(function () {
+                console.log('a');
+            }, 1000)
+        }
+    }
+    let dom1 = document.getElementById('debounce');
+    dom1.onclick = debounce();
+
+    //节流
+    function throttle() {
+        let canClike = true;
+        return function () {
+            if (canClike) {
+                console.log('b');
+                setTimeout(function () {
+                    canClike = true
+                }, 3000)
+            }
+            canClike = false;
+        }
+    }
+    let dom2 = document.getElementById('throttle');
+    dom2.onclick = throttle();
+
+</script>
+
+</html>

@@ -5,33 +5,40 @@
 		<title></title>
 	</head>
 	<body>
-		<p>测试是否可以使用easy-mock</p>
-		<p>暂时不知道关于open第三个参数的实际具体细节</p>
 	</body>
 	<script>
-		function getJson(url){
-			const promise=new Promise(function(resolve,reject){
-				console.log('222')
-				const changeState=function (){
-					if(this.readyState!=4){
-						return 
-					}
-					if(this.status===200){
-						resolve(this.response)
-					}
-					else{
-						reject(this.statusText)
-					}
-				}
+		// function getJson(url){
+		// 	const promise=new Promise(function(resolve,reject){
+		// 		console.log('222')
+		// 		const changeState=function (){
+		// 			if(this.readyState!=4){
+		// 				return 
+		// 			}
+		// 			if(this.status===200){
+		// 				resolve(this.response)
+		// 			}
+		// 			else{
+		// 				reject(this.statusText)
+		// 			}
+		// 		}
 				
-				const ajax=new XMLHttpRequest();
-				ajax.open("GET",url,true);
-				ajax.onreadystatechange=changeState;
-				ajax.send()
-			})
+		// 		const ajax=new XMLHttpRequest();
+		// 		ajax.open("GET",url,true);
+		// 		ajax.onreadystatechange=changeState;
+		// 		ajax.send()
+		// 	})
 		
-			return promise
-		}
-		getJson("https://www.easy-mock.com/mock/5cef4571961f5a3c06868cdc/example/mock").then(function(json){console.log(json)},function(error){console.error('出错',error)})
+		// 	return promise
+		// }
+		// getJson("https://www.easy-mock.com/mock/5cef4571961f5a3c06868cdc/example/mock").then(function(json){console.log(json)},function(error){console.error('出错',error)})
+		const promise=new Promise((resole,reject)=>{
+			return resole(1);
+		})
+		promise.then((data)=>{
+			console.log(data);
+			return data;
+		}).then((data)=>{
+			console.log(data);
+		})
 	</script>
 </html>

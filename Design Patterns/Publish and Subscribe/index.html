@@ -14,20 +14,10 @@
     </form>
 </body>
 <script>
-
-    let crop={};
-    crop.list=[];
-
-    //订阅事件
-    crop.on=function(fn){
-        this.list.push(fn);
+    function testParams(...a){
+        console.log(arguments);
+        let first=[].unshift;
     }
-
-    //发布事件
-    crop.emit=function(){
-        this.list.forEach(fn=>{
-            fn.apply(this.arguments);
-        })
-    }
+    testParams(1,2,3,4)
 </script>
 </html>

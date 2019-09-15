@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>垂直水平居中</title>
+</head>
+<style>
+    .container {
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+        margin: 10px 0;
+        position: relative;
+    }
+
+    #text-center {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #margin-position {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
+        background: red;
+        line-height: 100%;
+        text-align: center
+    }
+
+    #positon-margin {
+        background: red;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+
+    #position-calc {
+        background: red;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: calc(50% - 100px);
+    }
+
+    #position-transform {
+        background: red;
+        width: 200px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%)
+    }
+
+    #css-table-outer {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        background: green;
+    }
+
+    #css-table-inner {
+        background: red;
+        width: 50%;
+        height: 50%;
+        display: inline;
+    }
+
+
+    .wp {
+        border: 1px solid red;
+        height: 300px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .box {
+        background: green;
+        display: inline-block;
+    }
+
+    .box.size {
+        width: 100px;
+        height: 100px;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div id='margin-position'>
+            <div id="text-center">
+                <div>margin+position的居中方式</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id='positon-margin'>
+            <div id="text-center">
+                <div>position+margin的居中方式</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id='position-calc'>
+            <div id="text-center">
+                <div>position+calc的居中方式</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id='position-transform'>
+            <div id="text-center">
+                <div>position+transform的居中方式</div>
+            </div>
+        </div>
+    </div>
+    <div class="wp">
+        <div class="box">123123</div>
+    </div>
+</body>
+
+</html>

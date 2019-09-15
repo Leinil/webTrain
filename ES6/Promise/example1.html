@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Promise细节</title>
-	</head>
-	<body>
-		<p>new promise返回的是一个对象，构造函数接受一个函数用于规定resolve和reject的行为</p>
-		<p>then返回的是另外一个promise同样的接受resolve和reject的回调函数</p>
-		<p>promise中的resolve和reject不会终止代码的运行 及在resolve之后还是可以运行在Promise构造函数中定义的语句</p>
-		<p>尽量使用catch来处理错误，catch的作用虽然同理于then（null，reject）但是他将接收到所有之前链式调用中的错误</p>
-		<p>catch返回的也是一个promise可以继续使用then</p>
-		<p>promise的catch与传统的try/catch的不同是，如果没有写catch回调函数。则在promise对象抛出的错误不会传递到外层代码中</p>
-	</body>
-	<script>
-		// const p1=new Promise(function(resolve,reject){
-		// 	setTimeout(()=>resolve(new Error('fail')),3000)
-		// })
-		// 
-		// const p2=new Promise(function(resolve,reject){
-		// 	setTimeout(()=>resolve(p1),1000)
-		// }) //
-		// 
-		// p2.then(result=>{
-		// 	console.log('111');
-		// 	console.log("result",result)
-		// }).catch(error=>{
-		// 	console.log("222");
-		// 	console.log("error",error)
-		// })
-		
-		const someAsyncThing = function() {
-  return new Promise(function(resolve, reject) {
-    // 下面一行会报错，因为x没有声明
-    resolve(x + 2);
-  });
-};
 
-someAsyncThing().then(function() {
-  console.log('everything is great');
-});
+<head>
+	<meta charset="utf-8">
+	<title>Promise细节</title>
+</head>
 
-setTimeout(() => { console.log(123) }, 2000);
-	</script>
+<body>
+	<p>new promise返回的是一个对象，构造函数接受一个函数用于规定resolve和reject的行为</p>
+	<p>then返回的是另外一个promise同样的接受resolve和reject的回调函数</p>
+	<p>promise中的resolve和reject不会终止代码的运行 及在resolve之后还是可以运行在Promise构造函数中定义的语句</p>
+	<p>尽量使用catch来处理错误，catch的作用虽然同理于then（null，reject）但是他将接收到所有之前链式调用中的错误</p>
+	<p>catch返回的也是一个promise可以继续使用then</p>
+	<p>promise的catch与传统的try/catch的不同是，如果没有写catch回调函数。则在promise对象抛出的错误不会传递到外层代码中</p>
+</body>
+<script>
+	// const p1=new Promise(function(resolve,reject){
+	// 	setTimeout(()=>resolve(new Error('fail')),3000)
+	// })
+	// 
+	// const p2=new Promise(function(resolve,reject){
+	// 	setTimeout(()=>resolve(p1),1000)
+	// }) //
+	// 
+	// p2.then(result=>{
+	// 	console.log('111');
+	// 	console.log("result",result)
+	// }).catch(error=>{
+	// 	console.log("222");
+	// 	console.log("error",error)
+	// })
+
+	const someAsyncThing = function () {
+		return new Promise(function (resolve, reject) {
+			// 下面一行会报错，因为x没有声明
+			resolve(x + 2);
+		});
+	};
+
+	someAsyncThing().then(function () {
+		console.log('everything is great');
+	});
+
+	setTimeout(() => { console.log(123) }, 2000);
+</script>
+
 </html>
