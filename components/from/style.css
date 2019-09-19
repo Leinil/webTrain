@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+  min-width: 400px;
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid black;
+  margin: auto
+}
+#text{
+  font-weight: 300;
+  width: 50%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 80px;
+  margin: 0 auto;
+  color: brown
+}
+#inputContainer{
+  margin: 10px auto;
+  width: 80%;
+  /* height: 80px; */
+  border: 1px solid black;
+  box-shadow: 0px 6px 10px 1px black;
+}
+.input{
+  display: inline-block;
+  width: 97%;
+  margin: 0 auto;
+  height: 78px;
+  line-height: 80px;
+  font-size: 45px;
+  border: 1px 0px;
+  outline: none;
+  padding: 0px 0px 0px 3%;
+}
+.input:hover .text_X{
+  visibility: visible
+}
+
+.text_X{
+  color: red;
+  display: block;
+  height: 78px;
+  line-height: 80px;
+  font-size: 30px;
+  float:right;
+  margin-right: 20px;
+  visibility: hidden;
+  cursor: pointer;
+}
